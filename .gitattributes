@@ -1,0 +1,5 @@
+# Preserve OEM bytes, including CRLF and trailing whitespace in stock configs.
+* -text
+android14/** -whitespace
+android16/** -whitespace
+**/README.md whitespace

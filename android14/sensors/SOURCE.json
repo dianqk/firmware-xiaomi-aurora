@@ -1,0 +1,318 @@
+{
+  "version": "OS1.0.3.0.UNACNXM",
+  "runtimeVersion": "V816.0.3.0.UNACNXM",
+  "files": [
+    {
+      "source": "/odm/etc/sensors/config/ak991x_dri_0.json",
+      "sha256": "4682c0c0a333ffcf3122392c9d99ea93a626e0dd2f4aa02ac64bf8c25e0f7cd4"
+    },
+    {
+      "source": "/odm/etc/sensors/config/chre_dynamic_sensors.json",
+      "sha256": "4ec3bea025116595ca4fb95aa87a7368f875236cbaada95386d50de980d7199c"
+    },
+    {
+      "source": "/vendor/etc/sensors/config/lanai_qsh_ble_0.json",
+      "sha256": "7ad1243faa2c12e54dabdb133aac073f992eb481ed2dc77da90587fdefffdb7a"
+    },
+    {
+      "source": "/odm/etc/sensors/config/lsm6dso_0.json",
+      "sha256": "a7a35964d814ad0e3b9cc01142693e7562609a0ea2ba3973b2f045a7225dd6eb"
+    },
+    {
+      "source": "/vendor/etc/sensors/config/qsh_ble.json",
+      "sha256": "d2c21af39737d78800008ef4ac075c6f64efba9694582e861051b156f8b027cd"
+    },
+    {
+      "source": "/odm/etc/sensors/config/qsh_camera_aon_front_1.json",
+      "sha256": "f4b2ed5769d550884365a815a218a4d269705f4129f131d4735d8703e1c887b1"
+    },
+    {
+      "source": "/odm/etc/sensors/config/qsh_camera_common.json",
+      "sha256": "8c5bc05bf2d53e576c01f4821740dd79d2aa2e734461eb5a68140d095b201309"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_ak991x_0.json",
+      "sha256": "9f40203225942ed762aab47b5deee0c26650e2f670f4135c691502c6556a1de5"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_bmp5_0.json",
+      "sha256": "93bb0ee08cdb92d789e43d720d0ffacf301a392ebac017076e7b8cc31865198b"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_default_sensors.json",
+      "sha256": "1908f57630889141c6cd350f6b034230acaf50e16b8f2598601943d374fe3a1f"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_dynamic_sensors.json",
+      "sha256": "29ce5b251917c81a5904ba4876e6847ababc0dc1aaef4cddc8fe1a94e6ed1672"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_irq.json",
+      "sha256": "7570b4315cbc7626be75026d8aaa8464867043323ebe592d88b126f23af44e93"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_lsm6dso_0.json",
+      "sha256": "c2186d89b740027ceb260dd4b4337b5c4f7198ae4f0e8eacb211ffd006d70675"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_power_0.json",
+      "sha256": "b7edbe9d846695b3e223defee5370ef3ed25ed992ebb0205feb1dc127105633f"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_sx937x_0.json",
+      "sha256": "0a9145fc4262f0c92286cb8d919b5008e83b11a02e6c48067818fcd7b248ad25"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_tcs3408.json",
+      "sha256": "b4a212f49712acc9683193547d0c1ef5bfd17a67863d058df3d09a47cce862d0"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_tcs3720_fb.json",
+      "sha256": "c5241a50259be9f2274c999e193a910bc0c8a40b7a0c5fc2a8a44f98201a98c8"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sm8650_vl53l1_tof_0.json",
+      "sha256": "f3e62c272e70649c0df8e10f13beb335df246ffa711dada9525018fb48d78205"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_amd.json",
+      "sha256": "c5aab027990f7e9fe1f7d77bff8d90757c6eca910ce8ef25dfecde295130e90a"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_amd_sw_disabled.json",
+      "sha256": "623442eaea918ec852aa0475e6cb8013454a06ee9fd21f7b776611ad8b3b412d"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_amd_sw_enabled.json",
+      "sha256": "b5b5264c13b4de58449cc8210a7fbf5a53f291233b7311827d4a9448408b69af"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_aod.json",
+      "sha256": "5b641ae8fcde2ea7d4fc982cfeb3d2d6c156bc429b29b59b87e6862a4b2ccb2b"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v1_0_amd.json",
+      "sha256": "eabdb08fee910ecb3d1009cd01aae03c0b3ee40bfa0ae42c548e9217bc4c0cb5"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v1_0_ttw.json",
+      "sha256": "1fa8402e133dcbe9827f0a8656e0f585cc9a4961d4dd0002ddc15b4a0d162216"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v2_0_walk.json",
+      "sha256": "f89666b28aacc8b0cc54168b977e51ec60286d1c1a521a1db7d845506997af7a"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v3_0_walk.json",
+      "sha256": "af9dbd52ab89f95a839d46a98059fd11bc11e5681095984dbfcbd41e693c7bf0"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v3_1_walk.json",
+      "sha256": "bb7bf0846f20b12f29c3c30e0ac901ca6ada2e46b4ac75cf38527a0d876ad1bb"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v4_0_sensors.json",
+      "sha256": "b3f2aa104922ce9d1423bdf04b28f5e01bf94e282570e97734f32d774de35033"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v4_0_te_cd_regs.json",
+      "sha256": "4969c5386dae12ddb076a4630703720fe346a3ccea62671b6e00e5b995fd9918"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v5.json",
+      "sha256": "e7827ec0c80e787f0d6ea6ec8e26cf382c235a815aa79ca7048b372774da27e5"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v5_0_te_cd_regs.json",
+      "sha256": "e56a8731457b1f905de8f33437f7c60f84e88427ae2c06c0b25a28bdb921a26e"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_ccd_v5_1_te_cd_regs.json",
+      "sha256": "a9d6e0b13127bf31909cc5c5cc45ce07970d0dcf6d6dfd238dceb51cea159c9f"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_cm.json",
+      "sha256": "e7c3fca5ff1b9d7022f7732b55f591d53b3642251f09ef9ae8496b97d807a79d"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_collision_detection.json",
+      "sha256": "08d3dfbdd302cb372e323557906b86a8784cabffb355ef225747f64f912ce727"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_dae.json",
+      "sha256": "84a02ca7a97f85997079805e3f16eb110765b10d07a762756078943b534e15eb"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_dbtap.json",
+      "sha256": "7ffc9a9ce7747dbc416c467142ab11ff99a1d4613bc71bb0d78f34dd7bddc9d6"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_device_orient.json",
+      "sha256": "d851d263a77566c7add06c2de021bca3acbedb44b6a637adef2df9c2270b5b71"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_diag_filter.json",
+      "sha256": "99afd1ed79099f81b9ff592192108a6d862eeb95aa83857a9a84784549a0f09e"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_direct_channel.json",
+      "sha256": "4a6c1821edfb7b449edef4bf077f35920579f22af903d6512a4f858b364b33f6"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_distance_bound.json",
+      "sha256": "a73b92fa818666fd877fae82b9038c7123c8dd058f217ccc307063e187721410"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_dpc.json",
+      "sha256": "cc04fc77df21116110d29bb3e9b21f3eaa874042320e77f5ba601b39ab21623b"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_facing.json",
+      "sha256": "bb07b3f3eb475ed9cd39376ea07a8331780fee4150d34bd90cb0b5ef9a6b4e30"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_fmv.json",
+      "sha256": "f8a5e6eedab3ed729e08e38b98bc370d4ca63098ad905a9ea76763f4181fa1de"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_fmv_legacy.json",
+      "sha256": "6453974dac7abc5fbcbc4b2c440610622af51006466ba5642cddcd07eb4f9df0"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_geomag_rv.json",
+      "sha256": "667db61d733d9d14402ed61caaf8de5aea4d4dcf3f5135025db47a3df1554f2d"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_gyro_cal.json",
+      "sha256": "ca0b2452aa64b71e88ce2fc89465845334cb6625cda57a72bc1ff29fedc989ba"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_mag_cal.json",
+      "sha256": "cae7e978f8c47323bca220dedd3201f5e455769fadd88a261f667efc11b22bf4"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_mag_cal_legacy.json",
+      "sha256": "5963da9915cd35aa4f66a639bd0fdda24fb8f53c781557514d8d8a363058e8b3"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_nonui.json",
+      "sha256": "b23a7d4f7eb86981798c77de2082216c4d9908a73d877f975cfea59cff7b93b9"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_oem13.json",
+      "sha256": "8eeb3f76405a06d6b23035d8546d0902e641eb608bfa09de1408d0bdd0df620a"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_oem_pocket.json",
+      "sha256": "022c2e51014470a427633487426b196a0331db16b0036e4abdc49718d7029026"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_offbody_detect_phone.json",
+      "sha256": "22c2fe309e4cf8e30931a70d96f9db3ea6b1c133fc73e58d156dd7688b3ce11f"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_pedometer.json",
+      "sha256": "a402cc43b09cad7ee06e8306f6b4d64b75f5b5d424923903db6bcf90d2f6e7c1"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_pointing_light_source.json",
+      "sha256": "0e6e57d0986eb3c10434781e67ae37976ff8212cc29fa9dff9b1e48ecfb97534"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_rmd.json",
+      "sha256": "5daebdf3601c75ccf435f3b480bd7629cfa7e221e67f95d71da7d533b9fe2d0c"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_rotv.json",
+      "sha256": "d73088a74bbad833172cb8367c0ed8bc0cd50f6f33b41e4b56bde8f62b854eb8"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_sar_algo.json",
+      "sha256": "dfcaa6be3be1d49500d8c77c3307642b627de6bdde5314ab93ae0f3c15511622"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_sar_algo_1.json",
+      "sha256": "f0d765b0d1b730dbd52c3d08839da1a7531315063c74a6893b5d0c97450606af"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_screen_down.json",
+      "sha256": "cdced1a0aba40d86eb9ebbc125e414bbd34c365afc4ad578abbc409c006f0b87"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_smd.json",
+      "sha256": "7d545ed365482c94f7ba2a9830807cd8a3407c1190bf06353d4b3f4781482b22"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_tilt.json",
+      "sha256": "7955b607a828b5f26c4d1298a0db0de684ecd0f8bf9fde8586359d5c83557dcd"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_tilt_sw_disabled.json",
+      "sha256": "264aed83dfb89a924c1226fb76620e7f271a407c9e75123223587ab3aa1c845c"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_tilt_sw_enabled.json",
+      "sha256": "54f1560d80ce22dbc06fbc34ff16fea186bfc7edb33a7300567c553717998105"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sns_tilt_to_wake.json",
+      "sha256": "bdaf60fdbc8cf6914026b7d7b731b9bf2473dca7905008de60358dfb8febb7a4"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sx937x_0.json",
+      "sha256": "1b57226151c420d0c02ca42bb7e9dca4ab7f100e5d39b482cc1b85dd6434ab78"
+    },
+    {
+      "source": "/odm/etc/sensors/config/sx937x_reg_0.json",
+      "sha256": "bb842e54e0fa04c0d51e303eda92e3261fc1f571f0f82c7c76dc51d187c2dba2"
+    },
+    {
+      "source": "/odm/etc/sensors/config/tcs3408.json",
+      "sha256": "55eaaeb513acb770a993c250753d0c4f0703e636ebc23096bdb3a62659be1c9c"
+    },
+    {
+      "source": "/odm/etc/sensors/config/vl53l1_tof_0.json",
+      "sha256": "3829ad68c5ae3c0e338020406a22d82cd4061d68a1360c1f783170678b3036b9"
+    },
+    {
+      "source": "/vendor/dsp/adsp/fastrpc_shell_0",
+      "sha256": "4ce25d139987b804f313660a3e509bc8d3b436ffbe2c4cf658b3d6ef1c610733"
+    },
+    {
+      "source": "/vendor/dsp/adsp/libsns_device_mode_skel.so",
+      "sha256": "ae3d84e36f12b32b38624628a7a264c8d1fefcb32dfdd12da3fc8dbc0d6c774c"
+    },
+    {
+      "source": "/vendor/dsp/adsp/libsns_direct_channel_skel.so",
+      "sha256": "4953886799d6822babe72b111628f2706cc064312bca1112084731b64d864e26"
+    },
+    {
+      "source": "/vendor/dsp/adsp/libsns_dynamic_loader_skel.so",
+      "sha256": "140874cebe1b9aef1732a01c6073c88dc64effe75b018e081eb354c201129ebf"
+    },
+    {
+      "source": "/vendor/dsp/adsp/libsns_remote_proc_state_skel.so",
+      "sha256": "fc72d883dfd76ff7ac0f948d213436cc7a3d64939d3bac33cc1c5e8881e2801c"
+    },
+    {
+      "source": "/vendor/dsp/adsp/libstabilitydomain_skel.so",
+      "sha256": "8a910bda244b7b60912135b10ca9fb30899e1475d61bb761c46f05ee566c09e5"
+    },
+    {
+      "source": "/vendor/dsp/adsp/libsysmondomain_skel.so",
+      "sha256": "2dd1898a325ba503eaec0b8d5324da581f7b80e36358f5ff21e020e7fcbefec7"
+    },
+    {
+      "source": "/vendor/dsp/adsp/libsysmonquery_skel.so",
+      "sha256": "4748b367e7370c6796e270b875d34db756b7237daa55cfa362d37b822955115d"
+    },
+    {
+      "source": "/vendor/dsp/adsp/sns_tppe.so",
+      "sha256": "f0df0a9c992f2317ba5987f693841c9da2e5da217175a6eaf2dc6359cfd6ad6f"
+    },
+    {
+      "source": "/vendor/lib/rfsa/adsp/chre_qsh_shim.so",
+      "sha256": "5fe454e541b565d72d00cb738764d62ea2b52a6b874548e517184b709231cc0b"
+    }
+  ]
+}

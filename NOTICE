@@ -1,0 +1,18 @@
+Firmware and OEM data
+=====================
+
+The OEM payload files listed in SOURCE.json under android14/ and android16/
+are proprietary firmware, libraries or configuration. Rights in the OEM payloads remain with Xiaomi, Qualcomm, Cirrus Logic,
+Synaptics and their respective rights holders. Importing these files does not
+relicense them under the repository's MIT license or grant additional rights.
+
+SOURCE.json and the checksum manifests record provenance and integrity.
+The stock firmware and support files were copied without modification.
+No handset-specific calibration or identity overrides are distributed.
+
+Repository-authored documentation and verification code
+======================================================
+
+Repository-authored README files, provenance/checksum manifests and verify.py
+are covered by LICENSE. That license does not extend to the OEM payloads they
+describe.
