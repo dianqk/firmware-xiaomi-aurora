@@ -13,7 +13,7 @@ files are separate release sets, not interchangeable updates.
 
 | Directory | Factory release | Contents |
 | --- | --- | --- |
-| `android14/` | OS1.0.3.0.UNACNXM | ADSP, GPU, video, Wi-Fi, Bluetooth, speaker DSP, sensors and touch support |
+| `android14/` | OS1.0.3.0.UNACNXM | ADSP, modem, GPU, video, Wi-Fi, Bluetooth, speaker DSP, sensors and touch support |
 | `android16/` | OS3.0.7.0.WNACNXM | ADSP, GPU, video, Wi-Fi and Bluetooth; compatibility research only |
 
 ## Verify the files
@@ -26,7 +26,7 @@ sha256sum -c SHA256SUMS
 ```
 
 `SOURCE.json` lists every payload's stock path, size and SHA-256, the source ROM
-versions and the original import revision. `SHA256SUMS` covers all 225 payloads;
+versions and the original import revision. `SHA256SUMS` covers all 758 payloads;
 each component also has a local checksum list. Git attributes preserve original
 line endings and whitespace in OEM configuration files. Verification is host-only and
 does not access or modify a device. Git stores the actual files, without LFS.
@@ -35,6 +35,13 @@ does not access or modify a device. Git stores the actual files, without LFS.
 
 - `adsp/`: unchanged split MDT/Bxx images and service descriptors from
   `NON-HLOS.bin/image`. Keep each MDT and its segments together.
+- `android14/modem/`: the complete `image/` tree of the `modemfirmware`
+  partition (`MODEM-FW.bin`: split modem and modem DTB images, service
+  descriptors, `qdsp6m.qdb` databases and the `modem_pr/mcfg` carrier
+  configurations) plus the split IPA GSI firmware from `NON-HLOS.bin/image`.
+  The modem reads the remaining files over TFTP from its read-only firmware
+  root. Modem NV data (`modemst1`, `modemst2`, `fsg`, `fsc`) is per-handset
+  and is not included.
 - `gpu/`: Adreno 750 SQE, GMU and signed ZAP firmware.
 - `video/`: complete signed VPU33 ELF firmware, not concatenated MDT segments.
 - `wlan/`: matching AMSS, M3 ELF, N1 board data and Xiaomi regulatory data.
@@ -62,6 +69,7 @@ The integration uses these runtime paths:
 | Data | Installed location or processing |
 | --- | --- |
 | ADSP and ZAP/video firmware | `lib/firmware/qcom/sm8650/xiaomi/aurora/` |
+| Modem and IPA | `lib/firmware/qcom/sm8650/xiaomi/aurora/`, keeping the `modem_pr/` tree; the TFTP server maps `/readonly/firmware/image/` there |
 | GPU SQE/GMU | `lib/firmware/qcom/` |
 | WLAN | `ath12k/WCN7850/hw2.0/`: AMSS → `amss.bin`, M3 → `m3.bin`; combine N1 BDF and REGDB into `board-2.bin` |
 | Bluetooth | `lib/firmware/qca/xiaomi/aurora/` |
@@ -79,8 +87,12 @@ Hardware support and validation status belong in the consumer's
 ## Provenance and licensing
 
 The payloads were imported byte-for-byte from the previously verified Aurora
-data in nixos-android-devices. No private partition dumps, handset MAC overrides,
-radio calibration overrides, `persist` data or speaker calibration are included.
+data in nixos-android-devices. The `android14/modem/` payloads were copied unchanged
+from the factory `MODEM-FW.bin` and `NON-HLOS.bin` FAT images; `SOURCE.json`
+records both image hashes, and the file sizes match the mounted partitions of
+a handset running that base. No private partition dumps, handset MAC overrides,
+radio calibration overrides, `persist` data, modem NV partitions or speaker
+calibration are included.
 The firmware and OEM support files are proprietary and retain their owners'
 rights. [NOTICE](NOTICE) describes the boundary; [LICENSE](LICENSE) applies only
 to repository-authored documentation and verification code.

@@ -12,7 +12,8 @@
       "rom_version": "OS1.0.3.0.UNACNXM",
       "android": 14,
       "status": "development baseline",
-      "non_hlos_sha256": "785543cdcece1955d4fec679dbcf5b92c2030226ff4703a04a92fdab30e5c1b8"
+      "non_hlos_sha256": "785543cdcece1955d4fec679dbcf5b92c2030226ff4703a04a92fdab30e5c1b8",
+      "modem_firmware_sha256": "1ad54d1b0260b21ff26697bad73bc70c5d0575c5348a6eab92c785ce6aba3076"
     },
     "android16": {
       "rom_version": "OS3.0.7.0.WNACNXM",
@@ -443,6 +444,3204 @@
       "source": "/vendor/firmware/gmu_gen70900.bin",
       "bytes": 78484,
       "sha256": "0c59cd3fd137498e6fb340c752c7b5e3b0cecf473f16354bb5207ac68ee6c3cc"
+    },
+    {
+      "path": "android14/modem/ipa_fws.b00",
+      "source": "NON-HLOS.bin:image/ipa_fws.b00",
+      "bytes": 212,
+      "sha256": "f3087ce2e47ae4ea5b6e8da3b385f35019d0570a068f71a0ee29911de930e94d"
+    },
+    {
+      "path": "android14/modem/ipa_fws.b01",
+      "source": "NON-HLOS.bin:image/ipa_fws.b01",
+      "bytes": 18456,
+      "sha256": "13bcc0ada2096d8c2381dd30bb0e093cc1de5386e5f93069875df4e4c0597b05"
+    },
+    {
+      "path": "android14/modem/ipa_fws.b02",
+      "source": "NON-HLOS.bin:image/ipa_fws.b02",
+      "bytes": 128,
+      "sha256": "14024088f436ebd24b097cb113b2177e12c939efdac0211d560c7cc498611507"
+    },
+    {
+      "path": "android14/modem/ipa_fws.b03",
+      "source": "NON-HLOS.bin:image/ipa_fws.b03",
+      "bytes": 1000,
+      "sha256": "e27de3a89ed982c6122de06e1eec003bd44ccc7c8ae4385c18cd3c14da6edceb"
+    },
+    {
+      "path": "android14/modem/ipa_fws.b04",
+      "source": "NON-HLOS.bin:image/ipa_fws.b04",
+      "bytes": 3992,
+      "sha256": "e3ddf2f4ef3d4cdf4b26d4d3cfdbd576f86d896a9b135ac77503f817ed4ca1ec"
+    },
+    {
+      "path": "android14/modem/ipa_fws.mdt",
+      "source": "NON-HLOS.bin:image/ipa_fws.mdt",
+      "bytes": 4204,
+      "sha256": "30b9cf9c7b785c1e7676759304f17f685161820ea005cbde43e3869e58cccc51"
+    },
+    {
+      "path": "android14/modem/lanai/qdsp6m.qdb",
+      "source": "MODEM-FW.bin:image/lanai/qdsp6m.qdb",
+      "bytes": 7464216,
+      "sha256": "da38c1a07d35cc58ee465afa7e3aea7e728f8e23129ec95b2236b2431dcedb72"
+    },
+    {
+      "path": "android14/modem/modem.b00",
+      "source": "MODEM-FW.bin:image/modem.b00",
+      "bytes": 1556,
+      "sha256": "d4f5a25a5c1141351539ea23bdbcabab77dff2fb5c593cbc53aca9809b3240d6"
+    },
+    {
+      "path": "android14/modem/modem.b01",
+      "source": "MODEM-FW.bin:image/modem.b01",
+      "bytes": 2280,
+      "sha256": "0135d9a8b29d0e10a0abe89cf1efb10ed1147090f6c88ad124c5f105e100140b"
+    },
+    {
+      "path": "android14/modem/modem.b02",
+      "source": "MODEM-FW.bin:image/modem.b02",
+      "bytes": 812,
+      "sha256": "1dd6f64167fa807b2ac1649769aee6edf943f1b5803f09158d022591dc7d3902"
+    },
+    {
+      "path": "android14/modem/modem.b03",
+      "source": "MODEM-FW.bin:image/modem.b03",
+      "bytes": 2420,
+      "sha256": "d26877c2a6a49cb057ab17b6611054290c05eae6a269061686cfb6c5e732999d"
+    },
+    {
+      "path": "android14/modem/modem.b04",
+      "source": "MODEM-FW.bin:image/modem.b04",
+      "bytes": 43452,
+      "sha256": "6d0412db961509c928fc086193ab20e2cb0674fcf2ee65a764132e07e0c70ad1"
+    },
+    {
+      "path": "android14/modem/modem.b05",
+      "source": "MODEM-FW.bin:image/modem.b05",
+      "bytes": 170848,
+      "sha256": "4dbe1f7bf32934273532193dc7e861a0694cf1e6cf4e94757ea98737b23dc0e4"
+    },
+    {
+      "path": "android14/modem/modem.b06",
+      "source": "MODEM-FW.bin:image/modem.b06",
+      "bytes": 20224,
+      "sha256": "37895b96e958679957e64d0deb94e355866d2e414479485fd0480f73f318b5e1"
+    },
+    {
+      "path": "android14/modem/modem.b07",
+      "source": "MODEM-FW.bin:image/modem.b07",
+      "bytes": 55972,
+      "sha256": "47b393c8105875cdbc9f69f9fca854867e67b58f7030eecf543e4e7f48f5f55d"
+    },
+    {
+      "path": "android14/modem/modem.b08",
+      "source": "MODEM-FW.bin:image/modem.b08",
+      "bytes": 81558,
+      "sha256": "065b5a16e5e212011a88b983407155b5fd4c65c3a19de9f122b94dfadad28eb4"
+    },
+    {
+      "path": "android14/modem/modem.b09",
+      "source": "MODEM-FW.bin:image/modem.b09",
+      "bytes": 19260,
+      "sha256": "0181044e9888ad998e5335a180543daeb45b01987692b6ff20249b58ee43e91e"
+    },
+    {
+      "path": "android14/modem/modem.b10",
+      "source": "MODEM-FW.bin:image/modem.b10",
+      "bytes": 16952,
+      "sha256": "a036dc9c6ac0be403a478fe8f5f1518f6e90a78eefb900c431c4b1b7f83add17"
+    },
+    {
+      "path": "android14/modem/modem.b11",
+      "source": "MODEM-FW.bin:image/modem.b11",
+      "bytes": 14220,
+      "sha256": "f24f6813834f55211b4a42cc29f5946893baaa00d3c6bd24d007f73bc75925f4"
+    },
+    {
+      "path": "android14/modem/modem.b12",
+      "source": "MODEM-FW.bin:image/modem.b12",
+      "bytes": 34896,
+      "sha256": "6d21e57bfd2d1df42a14812ec8b6484afda5f114ccf8a9611ec8e93d8edc94a2"
+    },
+    {
+      "path": "android14/modem/modem.b13",
+      "source": "MODEM-FW.bin:image/modem.b13",
+      "bytes": 69632,
+      "sha256": "9d11dcf2db903ace708129be5ba1bb4bd65bd28af5f4e7fb9e9178a3320b9157"
+    },
+    {
+      "path": "android14/modem/modem.b14",
+      "source": "MODEM-FW.bin:image/modem.b14",
+      "bytes": 135168,
+      "sha256": "521c54ff2d6766b0ac9390978938e939775a4630e29f29348bfcb6c6ee5f7ffe"
+    },
+    {
+      "path": "android14/modem/modem.b15",
+      "source": "MODEM-FW.bin:image/modem.b15",
+      "bytes": 12696,
+      "sha256": "360a2cca38f0da76056d2c672addf38ba65a76f2b1bac78073be8370befa66ef"
+    },
+    {
+      "path": "android14/modem/modem.b16",
+      "source": "MODEM-FW.bin:image/modem.b16",
+      "bytes": 3528544,
+      "sha256": "93b71c39a4c11c4e8469f4707df94d732c7c6e1892c23cfea067ab2fb6e89a19"
+    },
+    {
+      "path": "android14/modem/modem.b17",
+      "source": "MODEM-FW.bin:image/modem.b17",
+      "bytes": 36928,
+      "sha256": "924092d622dc183a29abfed4efb67071b87f1753a57cbeebf8b0d3d5df28b871"
+    },
+    {
+      "path": "android14/modem/modem.b18",
+      "source": "MODEM-FW.bin:image/modem.b18",
+      "bytes": 36864,
+      "sha256": "d20fed52f49948de66c74c93a4d91ff372175837547a530cd5e9a996fa1bb13f"
+    },
+    {
+      "path": "android14/modem/modem.b19",
+      "source": "MODEM-FW.bin:image/modem.b19",
+      "bytes": 6699280,
+      "sha256": "019923588bc5658ab9c07607077b7936e924121e626a5e315c078f56dbcfa0b1"
+    },
+    {
+      "path": "android14/modem/modem.b20",
+      "source": "MODEM-FW.bin:image/modem.b20",
+      "bytes": 262144,
+      "sha256": "e4be17be3e616bb9b1b34521ef2bad9d83a52f581c3fafe55aac54611200d78b"
+    },
+    {
+      "path": "android14/modem/modem.b21",
+      "source": "MODEM-FW.bin:image/modem.b21",
+      "bytes": 5226496,
+      "sha256": "b5a5393e8937333fc542c6b5fb94a7645ad54c6baeef3d9504c6bedbc47ec908"
+    },
+    {
+      "path": "android14/modem/modem.b23",
+      "source": "MODEM-FW.bin:image/modem.b23",
+      "bytes": 1825224,
+      "sha256": "a17b43ccb581c4661c81b63e29536be06b33c2261527abd24f780cff58ae9a94"
+    },
+    {
+      "path": "android14/modem/modem.b24",
+      "source": "MODEM-FW.bin:image/modem.b24",
+      "bytes": 268960,
+      "sha256": "10e453a100ab6152420d0d09a0e67f38ae616a85d763a6444db358782da718d6"
+    },
+    {
+      "path": "android14/modem/modem.b25",
+      "source": "MODEM-FW.bin:image/modem.b25",
+      "bytes": 4812800,
+      "sha256": "2292e0e51235f96c0d0b4b94da491a22f2d8c0c45f13dff16899a879ce5d7903"
+    },
+    {
+      "path": "android14/modem/modem.b26",
+      "source": "MODEM-FW.bin:image/modem.b26",
+      "bytes": 20675224,
+      "sha256": "04670bfa8d87c2b726265c9157923f048ad86e4d4a0df56ee7803d39b0382f3a"
+    },
+    {
+      "path": "android14/modem/modem.b27",
+      "source": "MODEM-FW.bin:image/modem.b27",
+      "bytes": 12525103,
+      "sha256": "574dec2d41ce7ec60e9c7fe48de801a6ce88e0e6a63c6302a6acb68e373f9001"
+    },
+    {
+      "path": "android14/modem/modem.b28",
+      "source": "MODEM-FW.bin:image/modem.b28",
+      "bytes": 7454728,
+      "sha256": "4cf21f6cdce12a1195b2c63610eb95b84b3f256c25258228d065b99aace669a3"
+    },
+    {
+      "path": "android14/modem/modem.b30",
+      "source": "MODEM-FW.bin:image/modem.b30",
+      "bytes": 128512,
+      "sha256": "dde337afbaeb674f7793d18ed89a141596cb943467d0a3fd639331db4c18875f"
+    },
+    {
+      "path": "android14/modem/modem.b31",
+      "source": "MODEM-FW.bin:image/modem.b31",
+      "bytes": 44523584,
+      "sha256": "c82870153b703f3a783f28364d08bee8f0b666db40de6396e10c073df21f304d"
+    },
+    {
+      "path": "android14/modem/modem.b32",
+      "source": "MODEM-FW.bin:image/modem.b32",
+      "bytes": 39356736,
+      "sha256": "de84a63545fe4cd76c997ef03293eba33802f152fa800547ec7fa13e5bb738f9"
+    },
+    {
+      "path": "android14/modem/modem.b33",
+      "source": "MODEM-FW.bin:image/modem.b33",
+      "bytes": 1410392,
+      "sha256": "cf7495d5ae53bf3dac848582581007d476545a6080c28d9f751cfc3a45f1983e"
+    },
+    {
+      "path": "android14/modem/modem.b34",
+      "source": "MODEM-FW.bin:image/modem.b34",
+      "bytes": 8928,
+      "sha256": "8f780f6e2622bb1fac392984a0a3a3ff36bd09a233ae7a966ad01ae7edbb0eaf"
+    },
+    {
+      "path": "android14/modem/modem.b35",
+      "source": "MODEM-FW.bin:image/modem.b35",
+      "bytes": 409600,
+      "sha256": "e7d2741a73efab6bc564a21c260b2c0d0b096a1f6f9f9f4d58761f9ff28093b0"
+    },
+    {
+      "path": "android14/modem/modem.b36",
+      "source": "MODEM-FW.bin:image/modem.b36",
+      "bytes": 131072,
+      "sha256": "51180d759887b6941d5a15567236a436e8c93d7378c31455a7863f64702197c5"
+    },
+    {
+      "path": "android14/modem/modem.b37",
+      "source": "MODEM-FW.bin:image/modem.b37",
+      "bytes": 11272,
+      "sha256": "19f17b2eef1e1a99fbdc3b87d4e2bee939a824740f1e2a5014edc9d85bd7610b"
+    },
+    {
+      "path": "android14/modem/modem.b38",
+      "source": "MODEM-FW.bin:image/modem.b38",
+      "bytes": 4096,
+      "sha256": "acf8424228a53230fcdd2374220fcbd1399ef42f3471d079a559d060e31d9731"
+    },
+    {
+      "path": "android14/modem/modem.b39",
+      "source": "MODEM-FW.bin:image/modem.b39",
+      "bytes": 245760,
+      "sha256": "b79814f9bfc277afd2e607bd69c441d03ce44f25e75e6dc964be89a324911e0c"
+    },
+    {
+      "path": "android14/modem/modem.b40",
+      "source": "MODEM-FW.bin:image/modem.b40",
+      "bytes": 40260,
+      "sha256": "06a909fbbf8844608f6696738519b6edd85ec462ed42b3551a789f880247f7e2"
+    },
+    {
+      "path": "android14/modem/modem.b41",
+      "source": "MODEM-FW.bin:image/modem.b41",
+      "bytes": 20464,
+      "sha256": "4fc9ed71eb2f0a52d6c12e82d02a7355816e90743ede6ea6c670e534a9222821"
+    },
+    {
+      "path": "android14/modem/modem.b43",
+      "source": "MODEM-FW.bin:image/modem.b43",
+      "bytes": 21632,
+      "sha256": "77eb35588c7a78a00146702cb0a735ed324e27cd319667370030e45df3faf9b3"
+    },
+    {
+      "path": "android14/modem/modem.b44",
+      "source": "MODEM-FW.bin:image/modem.b44",
+      "bytes": 26247,
+      "sha256": "6bffa61188b623c8daee71b37a00c7040ec9661157a146fd829f84e0c39caf26"
+    },
+    {
+      "path": "android14/modem/modem.b46",
+      "source": "MODEM-FW.bin:image/modem.b46",
+      "bytes": 6584,
+      "sha256": "dcaa59747e77a3f5ac1e0e63920096e6cb6380296a489155bc237bd80c5d3e86"
+    },
+    {
+      "path": "android14/modem/modem.mdt",
+      "source": "MODEM-FW.bin:image/modem.mdt",
+      "bytes": 8140,
+      "sha256": "70776e0d66a6c80a0a64a54ccb94b786313de3e7d6cf98c53f3672244c29c7e0"
+    },
+    {
+      "path": "android14/modem/modem_dtb.b00",
+      "source": "MODEM-FW.bin:image/modem_dtb.b00",
+      "bytes": 148,
+      "sha256": "f1c869e7a7de413f6ce88696ab13e622b163957a91c51b1cfb7dff9422a5c393"
+    },
+    {
+      "path": "android14/modem/modem_dtb.b01",
+      "source": "MODEM-FW.bin:image/modem_dtb.b01",
+      "bytes": 15652,
+      "sha256": "27fb366bdfcc770043931e0e866abc1524d7a6197adfc2b9937dd871079c835a"
+    },
+    {
+      "path": "android14/modem/modem_dtb.b02",
+      "source": "MODEM-FW.bin:image/modem_dtb.b02",
+      "bytes": 5048,
+      "sha256": "76c8c864121f0fc5966a50312e5b1a6248da10bffc315661117003e8034ca1dd"
+    },
+    {
+      "path": "android14/modem/modem_dtb.mdt",
+      "source": "MODEM-FW.bin:image/modem_dtb.mdt",
+      "bytes": 5196,
+      "sha256": "a583f2ac6f6be7a1b6d6455be82f80e4be69e55454ba226c7618703d9af426d8"
+    },
+    {
+      "path": "android14/modem/modem_oem/modemuo.jsn",
+      "source": "MODEM-FW.bin:image/modem_oem/modemuo.jsn",
+      "bytes": 704,
+      "sha256": "a72c7f86a7f6d57f12e24a74bd9d17d69487fef651e427c05d7e38d85c904ddc"
+    },
+    {
+      "path": "android14/modem/modem_oem/qdsp6m.qdb",
+      "source": "MODEM-FW.bin:image/modem_oem/qdsp6m.qdb",
+      "bytes": 7924,
+      "sha256": "2f6175a0a654236238dab5d9ac810a7263cf2fcae39649ac55ba9f0e3a0c3362"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mbn_build_utc.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mbn_build_utc.txt",
+      "bytes": 10,
+      "sha256": "821c2fee772a6d36e334d56d76e9c3fe86f394ed77d5a986c479f84268ef5d15"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDA_Hybrid/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDA_Hybrid/mcfg_hw.mbn",
+      "bytes": 34288,
+      "sha256": "9178a23caa18f9742fa6372428beccf54010137eff4f7ec5643d131542789cdc"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDA_Hybrid_CDMALess/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDA_Hybrid_CDMALess/mcfg_hw.mbn",
+      "bytes": 33404,
+      "sha256": "9de04bc03da1a26859726a17bef587938164df9b03f5768dc155f0d721ef55d1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDS/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDS/mcfg_hw.mbn",
+      "bytes": 28628,
+      "sha256": "00d82c1ac38cc33fbb774364b2d3323486ef3bc56cebcbf83ef15d328dc5c7b9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDS_CDMALess/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDS_CDMALess/mcfg_hw.mbn",
+      "bytes": 28644,
+      "sha256": "979d79a67bf52142fdbcc98074822004bba8c56611a0a5e31786adde6ba449b2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/SS/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/SS/mcfg_hw.mbn",
+      "bytes": 21240,
+      "sha256": "a963d1eae842ee136beb766f8cd8407c46cff4f6917f93f8e753dcd02654401c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/SS_CDMALess/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/LA/SS_CDMALess/mcfg_hw.mbn",
+      "bytes": 21036,
+      "sha256": "bde2fd4fadf8fab4bd88fee7ad14126bce41edc2a075be3342638f95a9c71f84"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/WD/DSSA/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/WD/DSSA/mcfg_hw.mbn",
+      "bytes": 24300,
+      "sha256": "1721a01ae46db158d2429de2c4c540c50875a3df84faf8832a471e2d1a468c56"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/WD/SS/mcfg_hw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/generic/common/Lanai/STANDALONE/WD/SS/mcfg_hw.mbn",
+      "bytes": 24228,
+      "sha256": "7f60bd9cb3e8fdd43500e7a43cf15cf54f64b9b5d1936398fb0b8dfce89eb02b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig",
+      "bytes": 32,
+      "sha256": "bc879a80a3e8b1ac83f63e0592d9384ce7ed0337a2271aea3ed2112e1772ea30"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.txt",
+      "bytes": 401,
+      "sha256": "d76f0673ac84b736fe5a2bcff479c0d66adafa48311f4f2e1845c15ce0d74d66"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/oem_hw.txt",
+      "bytes": 67,
+      "sha256": "14780a0d3daed0334731d237d54d9f2b78e65492c160f97ece737c0c639813b4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/oem_hw_cert.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/oem_hw_cert.txt",
+      "bytes": 60,
+      "sha256": "3c4b32854af65d9c784fece11ff4cb9ec9f06bb4e2dcaaafa516f1a9b527811d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/oem_hw_dsds.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/oem_hw_dsds.txt",
+      "bytes": 60,
+      "sha256": "3c4b32854af65d9c784fece11ff4cb9ec9f06bb4e2dcaaafa516f1a9b527811d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/oem_hw_null.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/oem_hw_null.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_hw/oem_hw_ss.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_hw/oem_hw_ss.txt",
+      "bytes": 58,
+      "sha256": "17e7e13eeca859837c6eef8ed47884a39cfb90006b8e8069d3d4b562e27389e3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Airtel/Commercial/KE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Airtel/Commercial/KE/mcfg_sw.mbn",
+      "bytes": 57056,
+      "sha256": "0ac6008481f5339da54aeb2ed1a338bf12c9078c6c623c5433dca07274cd23cb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/CellC/Commercial/SAfrica/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/CellC/Commercial/SAfrica/mcfg_sw.mbn",
+      "bytes": 54088,
+      "sha256": "11646f8785da654e5ec469571c4e2fa191b091bc17608263584c11d56ec33ab1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Etisalat/Commercial/EG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Etisalat/Commercial/EG/mcfg_sw.mbn",
+      "bytes": 56744,
+      "sha256": "eb07de1aafaa187039d7f5b622b863ae3446bcbb6c206db6c5f8a10c97746d76"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/JTL/Commercial/KE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/JTL/Commercial/KE/mcfg_sw.mbn",
+      "bytes": 89724,
+      "sha256": "2f74208e96c926e1d773399e2071e2956ba3cae5ba3be05173599f51bf793273"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MOD/Commercial/EG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MOD/Commercial/EG/mcfg_sw.mbn",
+      "bytes": 54428,
+      "sha256": "da438241d0d0b98029909d9b643484220a9859df62eebc33ebd43e49ce2b8681"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MTN/Commercial/GH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MTN/Commercial/GH/mcfg_sw.mbn",
+      "bytes": 54428,
+      "sha256": "6a92bc52fc8cc861e3eccc38cc92c2f2da6facaa219f085f0e107442cdb2a015"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MTN/Commercial/Nigeria/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MTN/Commercial/Nigeria/mcfg_sw.mbn",
+      "bytes": 56656,
+      "sha256": "ef6b4c0a42ca9ccb22691f8060fc9577cd3f88f4083d745b925db9f1efe26992"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MTN/Commercial/ZA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MTN/Commercial/ZA/mcfg_sw.mbn",
+      "bytes": 65652,
+      "sha256": "aae7abb3c65e30b436bcd0fa75a81e8c18ca899c463a9e95baf97b09069e9be2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MoroccoTel/Commercial/MA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/MoroccoTel/Commercial/MA/mcfg_sw.mbn",
+      "bytes": 53000,
+      "sha256": "6113d1dad3fe0f69c11b742ea9403566f274aed1a32eb3a25232f8a146d7ae34"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Ntel/Commercial/NG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Ntel/Commercial/NG/mcfg_sw.mbn",
+      "bytes": 54576,
+      "sha256": "5be8e7b6afa9204cb483a4890d914f59d18d320c898578b994def3c5a13647e6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Orange/Commercial/CI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Orange/Commercial/CI/mcfg_sw.mbn",
+      "bytes": 54988,
+      "sha256": "e1d78d7285f399f9e358194b71b7569d52869e33611e84af8c110b93cd5c08b9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Orange/Commercial/EG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Orange/Commercial/EG/mcfg_sw.mbn",
+      "bytes": 58748,
+      "sha256": "d00b207cec8e13a23d601195c1f81e2f83eecb3a5bab02e0a679e9e51c647f31"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Rain/Commercial/ZA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Rain/Commercial/ZA/mcfg_sw.mbn",
+      "bytes": 55816,
+      "sha256": "b22ec3c1847b1b65edc38a897da6d8942d3e7267db82d3fe734a01377c85c887"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Safaricom/Commercial/KE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Safaricom/Commercial/KE/mcfg_sw.mbn",
+      "bytes": 58928,
+      "sha256": "1616e61c253edb41d5d9721465420cd8ecba9b9cb28c05e655227480faf73142"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Smile/Commercial/NG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Smile/Commercial/NG/mcfg_sw.mbn",
+      "bytes": 55020,
+      "sha256": "156ae09b9e5a82738ca86029d67bd16c70318c9493a8fe1028d889f2e042882e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Telkom/Commercial/ZA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Telkom/Commercial/ZA/mcfg_sw.mbn",
+      "bytes": 57720,
+      "sha256": "e5c55e1624971dd1ddea826c393830498ce1b1e286239dffb2203cfe3257f7f4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Vodacom/Commercial/ZA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Vodacom/Commercial/ZA/mcfg_sw.mbn",
+      "bytes": 52740,
+      "sha256": "403ff12724ea8e2d758d91d8f772feb606919e9af174f4c3e5ad68b5c10cc63f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Vodafone/Commercial/EG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/Vodafone/Commercial/EG/mcfg_sw.mbn",
+      "bytes": 58224,
+      "sha256": "79b3251f163e59edb3cea577af4debe8117d70a9383b8f795f6b0bcd70999883"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AF/WE/Commercial/EG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AF/WE/Commercial/EG/mcfg_sw.mbn",
+      "bytes": 57692,
+      "sha256": "fef7bdc5275d8711a41ed9a2a2216dd9da8639177aa0b3748cc08b84a2a8c170"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Airtel/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Airtel/Commercial/mcfg_sw.mbn",
+      "bytes": 51360,
+      "sha256": "45dc02860e08b6db1472ff85b7680b0762bcb4707b2d88058faa63b5f17a0fb4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/BSNL/Commercial/IN/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/BSNL/Commercial/IN/mcfg_sw.mbn",
+      "bytes": 55396,
+      "sha256": "82543ec49d04e49a9551a23bba4eec638d7215241dc7e8e234bed603fb540206"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Beeline/Commercial/KZ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Beeline/Commercial/KZ/mcfg_sw.mbn",
+      "bytes": 56544,
+      "sha256": "25b36ecdb5c3422b1fc005ca542607962d28a8ab37ad7c22a0b83a740ab0629f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/DCM/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/DCM/Commercial/mcfg_sw.mbn",
+      "bytes": 55000,
+      "sha256": "c44b62c2427bcd97858546ecef9f22f4a4a2778d0059874a183b4a6b3a25e618"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Dialog/Commercial/LK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Dialog/Commercial/LK/mcfg_sw.mbn",
+      "bytes": 57036,
+      "sha256": "7360aacc49e39fbb9c8a22273e13ee3ab7c204582559fd26c9da8e66908d2207"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Grameen/Commercial/BD/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Grameen/Commercial/BD/mcfg_sw.mbn",
+      "bytes": 55112,
+      "sha256": "c92866eeaed4deac1a24b48b63d5dbe176240ba9010daba902297e3162805ed2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Hutch/Commercial/LK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Hutch/Commercial/LK/mcfg_sw.mbn",
+      "bytes": 55236,
+      "sha256": "e0a73bce561c309b00eb163f59c5132c74e07474b85641c752bb2b5243a79c0e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Idea/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Idea/Commercial/mcfg_sw.mbn",
+      "bytes": 55932,
+      "sha256": "c78b9c640fe3bc15c80af97d6e599fbbbf8967f1c269743f97162058191dc7d3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/KDDI/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/KDDI/Commercial/mcfg_sw.mbn",
+      "bytes": 91608,
+      "sha256": "798b21850f39cbb07d110802f399d1f94d55069b02b66f7e2aea8b61b5896e27"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Mobitel/Commercial/Srilanka/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Mobitel/Commercial/Srilanka/mcfg_sw.mbn",
+      "bytes": 53076,
+      "sha256": "9c02495a018be45b6dbfcfa971f26416fa1c2b2b362093cf4402b8fbd7cfc012"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/NTC/Commercial/NP/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/NTC/Commercial/NP/mcfg_sw.mbn",
+      "bytes": 58100,
+      "sha256": "26e22eb812325c46414e421271409683d092496eb1d2799b458e5930725c5150"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Rakuten/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Rakuten/Commercial/mcfg_sw.mbn",
+      "bytes": 67772,
+      "sha256": "8e929a07073305c4e4aa27f23e1448bffcaf1c292c8fe9af2490c1b39cec0646"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Reliance/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Reliance/Commercial/mcfg_sw.mbn",
+      "bytes": 93332,
+      "sha256": "6a78c684494e4596411f82d0c7383552256c4efa5f49a5323c39ebde248f419c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Robi/Commercial/BD/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Robi/Commercial/BD/mcfg_sw.mbn",
+      "bytes": 54468,
+      "sha256": "d5d52f50d786cac98ae0ada89bd4c06feb4ad60c0c54a04a9dc05b90df1129b4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/SBM/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/SBM/Commercial/mcfg_sw.mbn",
+      "bytes": 66188,
+      "sha256": "3d5914eee93911c18b169ac8c8d6adce7aabe41e6cee852398e4407cef5a11d8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Vodafone/Commercial/India/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Vodafone/Commercial/India/mcfg_sw.mbn",
+      "bytes": 48888,
+      "sha256": "f1e699b89e3a21f787dfe414c346def169de1c0b5b2db31d3fcb0afb9954ad78"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Vodafone/Commercial/Oman/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Vodafone/Commercial/Oman/mcfg_sw.mbn",
+      "bytes": 55700,
+      "sha256": "a2df51d7b49fbe2e9c6a012e2693d1101c7cf38a404f59cde6a5b1b98c17e05e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Vodafone/Commercial/Qatar/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/APAC/Vodafone/Commercial/Qatar/mcfg_sw.mbn",
+      "bytes": 54764,
+      "sha256": "7d0df838a436d94d57e839e3dc759312b7a924e52bdd472afdf80f04e5116aae"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/2degrees/Commercial/NZ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/2degrees/Commercial/NZ/mcfg_sw.mbn",
+      "bytes": 55672,
+      "sha256": "acfea391cc97316e435414f6c4d3b7798dba6a457a211ae2c6ed419f472f3f36"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Optus/Commercial/AU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Optus/Commercial/AU/mcfg_sw.mbn",
+      "bytes": 58956,
+      "sha256": "a39e3602b39d0f31b90b27f4665ad026e04f4c0f667859355adcdaad7fa13f68"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Spark/Commercial/NZ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Spark/Commercial/NZ/mcfg_sw.mbn",
+      "bytes": 54584,
+      "sha256": "be760bff7658f4b88c3bb4e1032adc65370e05f18063c4943dc48160b93c88aa"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Telstra/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Telstra/Commercial/mcfg_sw.mbn",
+      "bytes": 60540,
+      "sha256": "1b27f877324aaee778acb2ca57423d600db6c9b583118266afcb1fde4d3f530c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Vodafone/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/AUNZ/Vodafone/Commercial/mcfg_sw.mbn",
+      "bytes": 70440,
+      "sha256": "ae8683e5c094627acfc8f2f22e20c16ae9ceaad11ad394ed64380a61977e697e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CBN/Commercial/Volte_OpenMkt/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CBN/Commercial/Volte_OpenMkt/mcfg_sw.mbn",
+      "bytes": 119296,
+      "sha256": "3635cd3d97bb11b757d83a17fc3dcfa54703a5d10fd737e279c93cc5b7d488a9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CBN/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CBN/Commercial/mcfg_sw.mbn",
+      "bytes": 10372,
+      "sha256": "05ddf73652a5ba04e9e354ff47667218ce6dce4f31f92eac206e9ea51e906418"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Commercial/Volte_OpenMkt/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Commercial/Volte_OpenMkt/mcfg_sw.mbn",
+      "bytes": 88460,
+      "sha256": "1c6c7739e21e726cb727cc5216f97d4dc09ddbd0dd481b4321b682330ab67e70"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/AGNSS_LocTech/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/AGNSS_LocTech/mcfg_sw.mbn",
+      "bytes": 22356,
+      "sha256": "88ad138aa0f787a92c73788ecf804f6942bb15d425c011b2f07243321c6fd061"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/Conf_VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/Conf_VoLTE/mcfg_sw.mbn",
+      "bytes": 50952,
+      "sha256": "98916204cfc6286a80788a9ea002743a4878c526fc5f1e5bdb2ba7b4bee4ce26"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/EPS_Only/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/EPS_Only/mcfg_sw.mbn",
+      "bytes": 19116,
+      "sha256": "547fa06ea173885edb4bbaa44f4705e4a71f680df9b561c62ba6277639bf89fd"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/LPP_LocTech/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/LPP_LocTech/mcfg_sw.mbn",
+      "bytes": 22364,
+      "sha256": "a61c0dd021238f7a061060e8f726c5d381a578b135bf5d2788dece164950665d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/Nsiot_4RX_VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/Nsiot_4RX_VoLTE/mcfg_sw.mbn",
+      "bytes": 47736,
+      "sha256": "09891d1b347b3d4dfcbd0e2390889df7923a531045995e7873d37388666136a1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/Nsiot_VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/Nsiot_VoLTE/mcfg_sw.mbn",
+      "bytes": 49512,
+      "sha256": "4ff5892d87a00ab5793605f331a15c229293226af7a6654adc2a90c6bccd52a5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/RRLP_LocTech/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/RRLP_LocTech/mcfg_sw.mbn",
+      "bytes": 22356,
+      "sha256": "dbabbcf4112b5f033ec4369b66a3fcdfe9209012ec53097eed584a8dc94f8164"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/TGL_Comb_Attach/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/TGL_Comb_Attach/mcfg_sw.mbn",
+      "bytes": 19616,
+      "sha256": "9d4cad500bac99f11673c920336099f1be452ce88a33e003bea61fb50c54b47f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/W_IRAT_Comb_Attach/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMCC/Lab/W_IRAT_Comb_Attach/mcfg_sw.mbn",
+      "bytes": 19200,
+      "sha256": "f6e9717b3b36e32dacc067a8cd6371735f43a3cb5435f51ef4ebb11191116d43"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMHK/Commercial/Volte_OpenMkt/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CMHK/Commercial/Volte_OpenMkt/mcfg_sw.mbn",
+      "bytes": 84612,
+      "sha256": "35398a1c99bf299c9bf1cb038b0c714dc055b76cee24d8f8642f0664cdcb2603"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Commercial/OpenMkt/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Commercial/OpenMkt/mcfg_sw.mbn",
+      "bytes": 58344,
+      "sha256": "060fc14c208b41a2189e235e45009c2f027f7deb02e8230a629f2994e2136e59"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Commercial/VoLTE_OpenMkt/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Commercial/VoLTE_OpenMkt/mcfg_sw.mbn",
+      "bytes": 103056,
+      "sha256": "a80f9fa43491030843dc5769001e4cba13281c97dfe57f2e2c8684a88484bba5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Commercial/hVoLTE_OpenMkt/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Commercial/hVoLTE_OpenMkt/mcfg_sw.mbn",
+      "bytes": 120084,
+      "sha256": "09be9786754bcd74485d1984ce4dd993c8858ac466f8c27358930239adeb1dd5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/CTA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/CTA/mcfg_sw.mbn",
+      "bytes": 41980,
+      "sha256": "4df59cae6b4de9304f15a1de45fb810e3fd63a53fd1e530d1dc64120ad5676ad"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/EPS_Only_VoLTE_Conf/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/EPS_Only_VoLTE_Conf/mcfg_sw.mbn",
+      "bytes": 58992,
+      "sha256": "bc06b39f6491e85a14b31784c9ed3042eb42c569aa820713a679c80924b6922b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/NoAPN_Vo_Conf/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/NoAPN_Vo_Conf/mcfg_sw.mbn",
+      "bytes": 56984,
+      "sha256": "e336d8135f08cfddc75875bd06e4172cf014db82c7a00429231c38ff2fc94d5e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/TEST/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/TEST/mcfg_sw.mbn",
+      "bytes": 42220,
+      "sha256": "fd64d6ac32c6ddcd8e070c79eb8435610e92d49b1c33f41c471bb6dbb0b53828"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/TEST_EPS_ONLY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/TEST_EPS_ONLY/mcfg_sw.mbn",
+      "bytes": 43448,
+      "sha256": "07a8ca823c119e34e5ab1a8485a97d583c2a257a01ec4cda372945801ad13013"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/TEST_NO_APN/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/TEST_NO_APN/mcfg_sw.mbn",
+      "bytes": 41592,
+      "sha256": "62ec14fc9df70650c7777ca297d932dd4767fee79402aa660e6d90c5413c5c6f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/VoLTE_Conf/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CT/Lab/VoLTE_Conf/mcfg_sw.mbn",
+      "bytes": 60588,
+      "sha256": "e55d6f249b21bb572929d7b71c51e48956ab0dea9df3e5f70fed1728b5c1da4b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CU/Commercial/OpenMkt/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CU/Commercial/OpenMkt/mcfg_sw.mbn",
+      "bytes": 33280,
+      "sha256": "bca89d595cc3c830377923063cff47551281ed5ba5203fd88548a94a6468009a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CU/Commercial/VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CU/Commercial/VoLTE/mcfg_sw.mbn",
+      "bytes": 82720,
+      "sha256": "075e06058474ba1fbea4be3e2cffe68338f32a798eb2b0895f7207c54a179b47"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/China/CU/Lab/Test/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/China/CU/Lab/Test/mcfg_sw.mbn",
+      "bytes": 15808,
+      "sha256": "ac6cea673a4a0689ae2295c775324e630f87784444fdafd488087606a952a46a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/4ka/Commercial/SK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/4ka/Commercial/SK/mcfg_sw.mbn",
+      "bytes": 57412,
+      "sha256": "31ee1816a925270ece0e9958d58f6728b2c2b411db9cccac96ac304571693ab6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Austria/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Austria/mcfg_sw.mbn",
+      "bytes": 56780,
+      "sha256": "68694dfdb452246bd3fbfbf183c2b7e7e97430a4f155db0e850f5e46b38befc7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/BG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/BG/mcfg_sw.mbn",
+      "bytes": 60776,
+      "sha256": "e4fee1e07dd623565a4d4b1a22133274cfd4aa6128affd0b0aadab7b1a54c8b0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Belarus/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Belarus/mcfg_sw.mbn",
+      "bytes": 57668,
+      "sha256": "05ee0fa1215f0a8165372b23782ce1ccb487e38803d3bcb14db4826444e4caf3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Croatia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Croatia/mcfg_sw.mbn",
+      "bytes": 57660,
+      "sha256": "25e656b158a4d6d96a4d655bc554dec89d7e0e573502efe06723517310a768e0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/MK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/MK/mcfg_sw.mbn",
+      "bytes": 57808,
+      "sha256": "202f1c720ef5c0a5b1dc0689c7364619f72c834737b53ffd743677a7f3564665"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Serbia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Serbia/mcfg_sw.mbn",
+      "bytes": 56200,
+      "sha256": "9441a1b44490694cb96fedfa809885b5bbf32f26326a50b81bec12536fbdbc98"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Slovenia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/A1/Commercial/Slovenia/mcfg_sw.mbn",
+      "bytes": 57724,
+      "sha256": "eaaae9510330a1e84c14c44c532e482496b98be94f8e2047c34d2c1a4a1ac09d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BHTelecom/Commercial/BA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BHTelecom/Commercial/BA/mcfg_sw.mbn",
+      "bytes": 63572,
+      "sha256": "ea7a24f74c87d867ca5fc52972720722da6c2d54a7fbda07ddcc528179adfd4a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BITE/Commercial/LT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BITE/Commercial/LT/mcfg_sw.mbn",
+      "bytes": 55972,
+      "sha256": "74056a9c718d6ac829184f7f96815f4d0bb618126dd6e7e28272334fcba6312f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BITE/Commercial/LV/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BITE/Commercial/LV/mcfg_sw.mbn",
+      "bytes": 56012,
+      "sha256": "4aeadd49d76149ab957db4eebf7819642c8c24240bcb2bb7fffc8251e3e9f4a0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BTBD/Commercial/France/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/BTBD/Commercial/France/mcfg_sw.mbn",
+      "bytes": 53184,
+      "sha256": "018ead40639fc30dbfc87196124540e2219ecb066bdfc089e6d3c1db80ee894b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Base/Commercial/BE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Base/Commercial/BE/mcfg_sw.mbn",
+      "bytes": 58932,
+      "sha256": "f10913ce1db9928711620c36bc89acc937f55574235215f62cee8564c32e1846"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Bob/Commercial/Austria/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Bob/Commercial/Austria/mcfg_sw.mbn",
+      "bytes": 56844,
+      "sha256": "eca8c25eff168d51cc477639e57e2040a6a6d4683d1e174dd89789915c31e220"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Bouygues/Commercial/France/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Bouygues/Commercial/France/mcfg_sw.mbn",
+      "bytes": 78316,
+      "sha256": "8e3073a0cd1459230ee5c5909d450fcf4415e0bdeae3bbac32804f3809821ff5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/CYTA/Commercial/CY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/CYTA/Commercial/CY/mcfg_sw.mbn",
+      "bytes": 60700,
+      "sha256": "6fd17171defc60adb1175f239a70fd81e7fb7b06b6c1e5103ce0d9749f8ac6ac"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Coop/Commercial/Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Coop/Commercial/Italy/mcfg_sw.mbn",
+      "bytes": 54884,
+      "sha256": "1ef413e1e03903d65bb67aa804140fa1ebca25bd1717fba18f436830e6fcdd5f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Coriolis/Commercial/France/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Coriolis/Commercial/France/mcfg_sw.mbn",
+      "bytes": 57016,
+      "sha256": "af8583792f46afc88859e5540c83d85eaa34b7f6135ce46d6ad204e0f7c1e4ea"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DIGI/Commercial/Hungary/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DIGI/Commercial/Hungary/mcfg_sw.mbn",
+      "bytes": 59052,
+      "sha256": "41d70b2d3646d324e0f1015e88bfe8d65780e4a6c297f0ea84167c6edb27d2ac"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DIGI/Commercial/Romania/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DIGI/Commercial/Romania/mcfg_sw.mbn",
+      "bytes": 54692,
+      "sha256": "acd878c8f00f259711a39ed81e7a6e6c2a45daa414e65160425664f3dca04ad6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/AL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/AL/mcfg_sw.mbn",
+      "bytes": 54700,
+      "sha256": "a7c58efc4c22042c2f70d10c6f3891079709af50b8e270639cad708a1a4e9a0e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Austria/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Austria/mcfg_sw.mbn",
+      "bytes": 68764,
+      "sha256": "da97a3517813449e545427115e3ca3649d2ecf1ed563b8b7758f264dcff13755"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/CZ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/CZ/mcfg_sw.mbn",
+      "bytes": 74984,
+      "sha256": "adeb152acbd7fe69c7d61c9e7904e387732bc9881576ca62bd4551df03f83170"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Croatia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Croatia/mcfg_sw.mbn",
+      "bytes": 69264,
+      "sha256": "1b39f009470b87252a660b9f9db963f2ea54fde3b2d7ce45b0a8a122efda08d7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Greece/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Greece/mcfg_sw.mbn",
+      "bytes": 67516,
+      "sha256": "911dbf64b20ba304bb3e89a572ebdcc7ee07c61ddf6729eda41ed280e138cdfb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Hungary/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Hungary/mcfg_sw.mbn",
+      "bytes": 78128,
+      "sha256": "051666aa96f2d14d0f51457a12e7a403a7e8422046f553ffe41c43bb21d26f34"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/ME/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/ME/mcfg_sw.mbn",
+      "bytes": 53856,
+      "sha256": "1581233876bb3c695709d516b689a3a871e34559b2262b5ed2f7cf22a1155f8f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/MK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/MK/mcfg_sw.mbn",
+      "bytes": 55148,
+      "sha256": "9c80f6c0661d763360da4dab55892901146427636a1d064db3c0cc4833b5e7f5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/NL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/NL/mcfg_sw.mbn",
+      "bytes": 62848,
+      "sha256": "6a4b75d8004e119dc1210802ed134c87f5efb9b15d68f0e2588789bab1440a3b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/PL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/PL/mcfg_sw.mbn",
+      "bytes": 69312,
+      "sha256": "fb83c8fbcc2fc05f530ce39b3564557dea287a121981b6f7bd9d61c536a0f19b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Romania/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Romania/mcfg_sw.mbn",
+      "bytes": 53612,
+      "sha256": "4ad3ec975767cb6b48ad617e2d85752424cf016e2643a3fb06157533f0678e42"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Slovakia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/Commercial/Slovakia/mcfg_sw.mbn",
+      "bytes": 71464,
+      "sha256": "9c5c0500afdd93157e349912a4646abd68f436ea2d4c793e249ad94c19bd3549"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/VoLTE/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/DT/VoLTE/Commercial/mcfg_sw.mbn",
+      "bytes": 69272,
+      "sha256": "a6b251c16ab697ae43b8b3c9679b3655936b516f8a228134569bc2ecd6a39d86"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/EE/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/EE/Commercial/mcfg_sw.mbn",
+      "bytes": 52892,
+      "sha256": "d6c01aa2e1882e1e5fc492696e32ae4330976f2119286b5f7db5a22a2cb7b3a8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Elisa/Commercial/EE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Elisa/Commercial/EE/mcfg_sw.mbn",
+      "bytes": 55056,
+      "sha256": "7a2db83c056ce197b06ade7e4e1c933db9998052cd435f8e863b47d66737921e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Elisa/Commercial/FI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Elisa/Commercial/FI/mcfg_sw.mbn",
+      "bytes": 64448,
+      "sha256": "561e94c2b0a279a9d2ceed23f65f45c2d686447e77d035ced74966fbfe07d831"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Epic/Commercial/CY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Epic/Commercial/CY/mcfg_sw.mbn",
+      "bytes": 57776,
+      "sha256": "2d7d2871854cc9c93f4ec25baff8f00e0e9801aae9148d431d96975c3a2bbf9b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Fastweb/Commercial/Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Fastweb/Commercial/Italy/mcfg_sw.mbn",
+      "bytes": 55996,
+      "sha256": "1e2110e3ef116e6fe7de3e2a85e2f09e3deb66c65eed090a3f6963e03859c968"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Free/Commercial/France/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Free/Commercial/France/mcfg_sw.mbn",
+      "bytes": 62136,
+      "sha256": "af6347856a3684df088999de1a236cbe17968345ed254488494bc59baf96f2f1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Goldentel/Commercial/UA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Goldentel/Commercial/UA/mcfg_sw.mbn",
+      "bytes": 54432,
+      "sha256": "12b1b4a8afe7f51f5a519b06e25cbf24df3d89fcdecac7ee9f92e87b81f51ef1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Austria/Spusu/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Austria/Spusu/mcfg_sw.mbn",
+      "bytes": 59944,
+      "sha256": "0b4b9013867f58a302ae3ee7c0e04f23301ed6f11ffcf076fba0623ebc77fd1c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Austria/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Austria/mcfg_sw.mbn",
+      "bytes": 59924,
+      "sha256": "e79c9e3208f199982d750b9065b9e9681666acc573d1ed463bf718a28a8927cd"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Denmark/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Denmark/mcfg_sw.mbn",
+      "bytes": 68988,
+      "sha256": "81ab829da184b6fd69b7bd4397a80495ef4a7e6505990339373b000bb3e7e081"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Ireland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Ireland/mcfg_sw.mbn",
+      "bytes": 61968,
+      "sha256": "f7ff098092efa9b3c6d8f689974fa9417c31bd7127e1670396202036b9c8c406"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/Italy/mcfg_sw.mbn",
+      "bytes": 105696,
+      "sha256": "285ef1c596ebd3ce3fca5423f8f6b7694a235ca7017d40f62d21e0ddc8af605e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/SE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/SE/mcfg_sw.mbn",
+      "bytes": 61660,
+      "sha256": "f70b7832122b82cd134feb2c62e9949fa93718f49d53609bff5e9a6a2e2400a9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/UK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/H3G/Commercial/UK/mcfg_sw.mbn",
+      "bytes": 63816,
+      "sha256": "f291eb67153d6d081ecad0f941883e0c17b33026ed9f0aef3b32b1d572dc7072"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/ICE/Commercial/Norway/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/ICE/Commercial/Norway/mcfg_sw.mbn",
+      "bytes": 76108,
+      "sha256": "bc5c22de2a02e51f95e9db4cb5fae7ce545b66aabbd7e7bc6ac0f57e8739a70d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/KPN/Commercial/NL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/KPN/Commercial/NL/mcfg_sw.mbn",
+      "bytes": 59448,
+      "sha256": "3be628b066ddb6ba704c1a58a58d5f5b5d95d1e56a41bfb034135c36dd5cc697"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Kyivstar/Commercial/UA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Kyivstar/Commercial/UA/mcfg_sw.mbn",
+      "bytes": 57096,
+      "sha256": "0db635a004668329abe6502db1e8ea0a474f84ff406d405743f615bcd345adb5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/LMT/Commercial/LV/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/LMT/Commercial/LV/mcfg_sw.mbn",
+      "bytes": 57652,
+      "sha256": "8b10d88b8e0ebaa9db40dabc236ea46b0a2a3f947fcfe5931c0663c7529f6c9f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Lifecell/Commercial/UA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Lifecell/Commercial/UA/mcfg_sw.mbn",
+      "bytes": 54360,
+      "sha256": "a3b6bd5cac4bfd7a739d6fcbc0091a7ed018b41aaabd313dd723d1eb4cff6f16"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MASS/Commercial/AT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MASS/Commercial/AT/mcfg_sw.mbn",
+      "bytes": 54900,
+      "sha256": "2d33ff62bd52de4b7e2584e165eaf30cad36e9c2105ff678713ca0f674bb0b42"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MEO/Commercial/PT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MEO/Commercial/PT/mcfg_sw.mbn",
+      "bytes": 57148,
+      "sha256": "dd18899b07a9caadd0c12847833df13a0c8f2778fbb5fac75f416ecff9d403bf"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/METEOR/Commercial/IE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/METEOR/Commercial/IE/mcfg_sw.mbn",
+      "bytes": 55220,
+      "sha256": "1dd07a1e751190c821cea0ce14350528b8e3ce5d6131245aa77587053790db8d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MTEL/Commercial/BA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MTEL/Commercial/BA/mcfg_sw.mbn",
+      "bytes": 63168,
+      "sha256": "1c298d065dfd326a567992386c261db9b2ede5c96e9927dd9f21e49839a789fb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MTS/Commercial/AM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MTS/Commercial/AM/mcfg_sw.mbn",
+      "bytes": 53712,
+      "sha256": "00a9dd918bf95291957b3a09debaabcedd852318606ba9db334062aae5b6a95a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MTS/Commercial/RS/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MTS/Commercial/RS/mcfg_sw.mbn",
+      "bytes": 54608,
+      "sha256": "074f5fa8a231c01b6fc754659ca34136427e24c55f1a15965a77ce4ae5978bc9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Mobitel/Commercial/SI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Mobitel/Commercial/SI/mcfg_sw.mbn",
+      "bytes": 56028,
+      "sha256": "e783d9fcad8a45420a618197fcbeda7b397f530c648d1a2cbeae24831cbbcba8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Moldcell/Commercial/MD/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Moldcell/Commercial/MD/mcfg_sw.mbn",
+      "bytes": 57560,
+      "sha256": "751386d9c05d9184390850ab4f1ea59cc963d884f5f05a400e2eb6e50d7fccfd"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MonacoT/Commercial/MC/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/MonacoT/Commercial/MC/mcfg_sw.mbn",
+      "bytes": 52280,
+      "sha256": "dd84b9bfd8bc3efa942f602e32ccb22cff97850bf2e9077c176c77f870c36575"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/NOS/Commercial/PT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/NOS/Commercial/PT/mcfg_sw.mbn",
+      "bytes": 53500,
+      "sha256": "0d5e3a7718da29c6b0fd56bd43839111525cad05eb3e8a3838121cd2ce1c97df"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/NOVA/Commercial/Iceland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/NOVA/Commercial/Iceland/mcfg_sw.mbn",
+      "bytes": 58552,
+      "sha256": "48609bf6a4cae30883923722ef4777d48061dd9fde8502b3d2b67be0af4ea30e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/ONEONE/Commercial/Germany/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/ONEONE/Commercial/Germany/mcfg_sw.mbn",
+      "bytes": 42508,
+      "sha256": "2883302b52c03bedfa936af1d7c9502d4496abffa50c349d972c185c125f642f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Onephone/Commercial/UK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Onephone/Commercial/UK/mcfg_sw.mbn",
+      "bytes": 56068,
+      "sha256": "af7734bbd1dff42525eed09f9553be70b2a9cdbe51d21e6c9c50759c29d3ab0b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/BE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/BE/mcfg_sw.mbn",
+      "bytes": 57184,
+      "sha256": "2d324f6f373590dbfa82bf461baf1700bbc60d6eca19810718e98da29770dd95"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/CA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/CA/mcfg_sw.mbn",
+      "bytes": 56060,
+      "sha256": "479436bcb7a2e5d1e7b871e3a27a347a6d20a5430fe111af148eb66fccc76d9d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/France/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/France/mcfg_sw.mbn",
+      "bytes": 74876,
+      "sha256": "0266a07a810e96e8e509e51089e6c550a62f9bb894c2fad84bf6b0e15fc904fd"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/France_World/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/France_World/mcfg_sw.mbn",
+      "bytes": 18252,
+      "sha256": "1da6e530a814f8ad10d1c634d0f1b2f05052dd8f114feed3b7296e448094dd93"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Jordan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Jordan/mcfg_sw.mbn",
+      "bytes": 34236,
+      "sha256": "e3e7b756f7e768a9795ecb18477170f4272073e9902d7706a488f0cb083addb4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/LU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/LU/mcfg_sw.mbn",
+      "bytes": 56556,
+      "sha256": "c236d673aa414ae0c9e18c7865de9adeee956f8abeabf326653a62d395d85881"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Moldova/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Moldova/mcfg_sw.mbn",
+      "bytes": 51640,
+      "sha256": "5144d224403171de7321707e4b4868c29fc99c051005273f2f286fcbe697c43e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Morocco/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Morocco/mcfg_sw.mbn",
+      "bytes": 58920,
+      "sha256": "9b09f1c844a9449c908038128b57076129e10de5af2ecfe68d4073b1c1ec5c95"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Poland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Poland/mcfg_sw.mbn",
+      "bytes": 81688,
+      "sha256": "374e036bf35a3f6437712bd19133feb86a0ff3ac0c42822200f79543bd16ec26"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/RM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/RM/mcfg_sw.mbn",
+      "bytes": 57484,
+      "sha256": "d0d702f5afb9121cae931316e1a09f3e196375c49c2ad7a94da8ebf98a87a130"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Romania/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Romania/mcfg_sw.mbn",
+      "bytes": 59924,
+      "sha256": "73973c729090f54e7b6f1291b5676e46bdee5889aa952431f9eede5a6bdb705d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Slovakia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Slovakia/mcfg_sw.mbn",
+      "bytes": 64368,
+      "sha256": "dc912bfa22004f36090802be2205cdfaae0c9ed62fdc955e25e5181a0245d3d9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Spain/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Orange/Commercial/Spain/mcfg_sw.mbn",
+      "bytes": 75476,
+      "sha256": "d22f81e3a8817a1c79a07ae632730a0b3e51553a366243c12ed83f935cf551fc"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Play/Commercial/Poland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Play/Commercial/Poland/mcfg_sw.mbn",
+      "bytes": 65176,
+      "sha256": "5c032819ba146278625cf8da80688c13c72f653ad019948e771916eaf6a4b3eb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Plintron/VoLTE/Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Plintron/VoLTE/Italy/mcfg_sw.mbn",
+      "bytes": 60324,
+      "sha256": "880c575a0b6ae3ac7aa3b7e8b95224b99260ad41d47e9470aad33c867d4b8788"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Plus/Commercial/Poland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Plus/Commercial/Poland/mcfg_sw.mbn",
+      "bytes": 56664,
+      "sha256": "42c39ff6f07d6074651a53cfa3acd6d819abdfa98afc987814164c787bfe69b6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Post/Commercial/LU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Post/Commercial/LU/mcfg_sw.mbn",
+      "bytes": 54312,
+      "sha256": "1b8ec440e1dd5c7af455621accb4f83b118a964eaa7c869a256528c7a18bfed2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Postemobile/Commercial/IT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Postemobile/Commercial/IT/mcfg_sw.mbn",
+      "bytes": 56760,
+      "sha256": "de6a7f9a6011cd749a92c971bbd92763ddc2ad7c93ae780706ad047be589007e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Primete/Commercial/Cyprus/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Primete/Commercial/Cyprus/mcfg_sw.mbn",
+      "bytes": 57344,
+      "sha256": "34e36cc3dc8a9348ed3274a5df2fc332d5f759862e714adf469cdc70872e661e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Proximus/Commercial/BE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Proximus/Commercial/BE/mcfg_sw.mbn",
+      "bytes": 56644,
+      "sha256": "54d55436a93d93ae68fc4f99d11acd1bcbb8e28d3f3a6c9582f88def9a5d2961"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Proximus/Commercial/LU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Proximus/Commercial/LU/mcfg_sw.mbn",
+      "bytes": 55412,
+      "sha256": "e6f5f5a7701c38b0289744a431099e0cfeb1f6c66a990bb5f1c85c37c82f7073"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Rebtel/Commercial/Poland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Rebtel/Commercial/Poland/mcfg_sw.mbn",
+      "bytes": 54500,
+      "sha256": "04a87d8004961e99363f5c40498afb190594ce8c162a95154c0061d48fd6e184"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/SFR/Commercial/FR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/SFR/Commercial/FR/mcfg_sw.mbn",
+      "bytes": 74624,
+      "sha256": "8bea70dc0d1a34b6c1fbc6a9fbb9760b1b3c3c1abff1db2aea5f7ff127e79a99"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Salt/Commercial/CH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Salt/Commercial/CH/mcfg_sw.mbn",
+      "bytes": 56828,
+      "sha256": "66ed62fc7b626e79fef10647b0e2284822d454184896b31abb05b6d6eeaf3204"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Sky/Commercial/UK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Sky/Commercial/UK/mcfg_sw.mbn",
+      "bytes": 58616,
+      "sha256": "de7313d3ff814ace0d96263972fb5348a76b60e30743059c99af4ccc9a2e4bf3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Sunrise/VoLTE/Sunrise/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Sunrise/VoLTE/Sunrise/mcfg_sw.mbn",
+      "bytes": 55468,
+      "sha256": "e2e3da4a984d5934b05d9bee309f16e637ae9890b94589eef45d227293ecbe68"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Swisscom/Commercial/Swiss/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Swisscom/Commercial/Swiss/mcfg_sw.mbn",
+      "bytes": 63488,
+      "sha256": "dde3067c5184cdf8ceda8de5c5155ff8c87ff5c89f59d792dba52364ba6c9b36"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TDC/Commercial/Denmark/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TDC/Commercial/Denmark/mcfg_sw.mbn",
+      "bytes": 64760,
+      "sha256": "4bfee6650f351ea72933d0d1681532f9727cd3539180e206dcac14a85b6cb926"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TIM/Commercial/Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TIM/Commercial/Italy/mcfg_sw.mbn",
+      "bytes": 78836,
+      "sha256": "7f50a7d9b64c15d8cac5138b0342a2c81ee42294b2938048843d67a89521dfce"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TIM/Commercial/kena_Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TIM/Commercial/kena_Italy/mcfg_sw.mbn",
+      "bytes": 40248,
+      "sha256": "fb90510035847c02f1331e6c82e985a16bc1ee4bbaa734906d932b37a75e0408"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/Croatia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/Croatia/mcfg_sw.mbn",
+      "bytes": 54408,
+      "sha256": "95292e2436a7108282598c3c2a431b57b270ac112d397b8c3192e0e91cdbbd65"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/Estonia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/Estonia/mcfg_sw.mbn",
+      "bytes": 57708,
+      "sha256": "57a301571dff0a51b0a496e8307255a6370676c5bf85c24afbd397f311140565"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/LT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/LT/mcfg_sw.mbn",
+      "bytes": 57616,
+      "sha256": "dd656b898666e20f30467bd66fcbecdced7bf89857f98e9d30d301baba670486"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/LV/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/LV/mcfg_sw.mbn",
+      "bytes": 57640,
+      "sha256": "56c94e005d7c6997cecc01de31267c711ea4c1680380df1e3505c2e420bfdc62"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/NL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/NL/mcfg_sw.mbn",
+      "bytes": 66700,
+      "sha256": "93f488c7fee8ecf482ecd1982fb617b3eef1670816553889b2e05fa2133ec8ef"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/Sweden/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tele2/Commercial/Sweden/mcfg_sw.mbn",
+      "bytes": 63308,
+      "sha256": "8d9cc16c6a6d3b77253b0444a5457fbbc580c3aaf798f85877f577153cf22b9c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/CZ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/CZ/mcfg_sw.mbn",
+      "bytes": 51232,
+      "sha256": "bedd6446c3b7cdbd2ce75aca083cebc0700457bdae71ac1cf2935f8a550e31a2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/DE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/DE/mcfg_sw.mbn",
+      "bytes": 56988,
+      "sha256": "300f9dba4fafaa4204b599ce1553fab5156c58b554c3a113d0e0bc01c9d2942b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/SK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/SK/mcfg_sw.mbn",
+      "bytes": 57004,
+      "sha256": "b9381131e4eacd904be640f313c2d4d6dd365d7e74f42f00aeebb6568bd1ffd5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/Spain/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/Spain/mcfg_sw.mbn",
+      "bytes": 80024,
+      "sha256": "7bb33c6cc956fa3a7bc808dfa3a6d8120abd332428ddd003d025bfd398928a06"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/UK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telefonica/Commercial/UK/mcfg_sw.mbn",
+      "bytes": 62560,
+      "sha256": "0d6bd022d2c567df61fb1d5c2efcf456baa036d12a04d9536db17f0debfe464a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telemach/Commercial/SI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telemach/Commercial/SI/mcfg_sw.mbn",
+      "bytes": 59148,
+      "sha256": "e5f05d1e62c64515c16382482a39524acf5696d5740b1d1ff291ad037fa00d9e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Bulgaria/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Bulgaria/mcfg_sw.mbn",
+      "bytes": 53912,
+      "sha256": "fe54f997dcd4397a34d0121d6f7760cf5487f64c6175c41b03865750407b35fe"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Denmark/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Denmark/mcfg_sw.mbn",
+      "bytes": 61652,
+      "sha256": "721a6a070ff616194e6b5374bf29aa3d20d409f7160f983e4c8a3cd1f69a52bb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Finland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Finland/mcfg_sw.mbn",
+      "bytes": 51408,
+      "sha256": "aa3db47c8ab71130abfab29ff6578677cfb06a69143b7a3ba8541fd3ffed1245"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/HU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/HU/mcfg_sw.mbn",
+      "bytes": 54084,
+      "sha256": "33bc184cd06247fd5b74004b1e588fc04f6c852e28343ebad83942096c571954"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/ME/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/ME/mcfg_sw.mbn",
+      "bytes": 52328,
+      "sha256": "2005551aec7d5fb66d2ea91d895c8d43bb77a08d77178ad98f6cfcbf0dac9e2c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/MM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/MM/mcfg_sw.mbn",
+      "bytes": 54932,
+      "sha256": "df82e6ac50b703a5d2f121890e9515650d54f94861686c7ab0f58621c6a50799"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Norway/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Norway/mcfg_sw.mbn",
+      "bytes": 85456,
+      "sha256": "fedda179b1597896596ff2062c17f23a6714c59c1efcd89d775a06f840d72775"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/SE/Vimla/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/SE/Vimla/mcfg_sw.mbn",
+      "bytes": 61828,
+      "sha256": "a0aa3cdd23f2e8cd740c5a092cbf9c3ff5bff5300a7bb63664a3bc3119737fd1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/SE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/SE/mcfg_sw.mbn",
+      "bytes": 61516,
+      "sha256": "5612c0bc182b7c619c18e5d2dbdde41a45aed77405439883987a31565e7653b0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Serbia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telenor/Commercial/Serbia/mcfg_sw.mbn",
+      "bytes": 54056,
+      "sha256": "32aaba466df2252b153838e7e01d082e36b6f7c1a886609c8944360acdd0be3a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Denmark/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Denmark/mcfg_sw.mbn",
+      "bytes": 56268,
+      "sha256": "2b8746a3299340d66108db51a9db033db3440a6ee45e0a16892f73b4e8c8a2ed"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/EE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/EE/mcfg_sw.mbn",
+      "bytes": 56916,
+      "sha256": "9f925f0349f81ab3127a4230c4d7b2401e7f9a6db659a3ca0a2d09c6bc7ec80f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/FI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/FI/mcfg_sw.mbn",
+      "bytes": 56704,
+      "sha256": "1db1cd3674acbe5ced2a3b8c5aebfe9ba9bb8162e6b591378cbd0562fefcbc04"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Lithuania/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Lithuania/mcfg_sw.mbn",
+      "bytes": 56600,
+      "sha256": "fe3fdb45b1bbfd4c5dbdaf23380685bcc3f8e9d5a32b20585611c196d4112a03"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Norway/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Norway/mcfg_sw.mbn",
+      "bytes": 68740,
+      "sha256": "02a14658072c621fce284f3fdc3b78fcdd3458e6fca0f1abf5a4f69b30416f22"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Sweden/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Telia/Commercial/Sweden/mcfg_sw.mbn",
+      "bytes": 78192,
+      "sha256": "d0de94f693b360252a20e2efce5af123d9107e8090ad7f626f541ff52e92b790"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tigo/Commercial/BO/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Tigo/Commercial/BO/mcfg_sw.mbn",
+      "bytes": 54576,
+      "sha256": "2ccfbc20bf8ce2f4970becca9780322cafdabd5b686912c3b2c29574c1d7232d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Trimob/Commercial/UA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Trimob/Commercial/UA/mcfg_sw.mbn",
+      "bytes": 54248,
+      "sha256": "cab1926a3e9cfa440c7a9644c643f55aa2b928008e4071251db576911b0cc9b7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Truphone/Commercial/PL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Truphone/Commercial/PL/mcfg_sw.mbn",
+      "bytes": 54536,
+      "sha256": "b6cd703e714e9b685e00d636460b797a61e9afe4dd1698363e1ec05f0eb62842"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TurkTelekom/Commercial/TR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/TurkTelekom/Commercial/TR/mcfg_sw.mbn",
+      "bytes": 50568,
+      "sha256": "99749158d033d62efa15294903dafb768c890f2d0a96d46c23ddc533320a4f3a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Turkcell/Commercial/TR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Turkcell/Commercial/TR/mcfg_sw.mbn",
+      "bytes": 47220,
+      "sha256": "b3738508a3a2f8edf69356bc8f06c884c517d3bde71c93bbde1822889ac8fac6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/UPC/Commercial/CH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/UPC/Commercial/CH/mcfg_sw.mbn",
+      "bytes": 59084,
+      "sha256": "43d2d9a67d403580b6e478a010e5478f301550f0fbc077a0e321cbd97983dc72"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/VITI/Commercial/FR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/VITI/Commercial/FR/mcfg_sw.mbn",
+      "bytes": 56300,
+      "sha256": "f7f686d221dda41c338b5667a591a813294f6f37c52df9810adfd06413229cb0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Virgin/Commercial/GB/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Virgin/Commercial/GB/mcfg_sw.mbn",
+      "bytes": 54244,
+      "sha256": "4ebc27568beb39e871bdb039c0bb76b5eafb4f583a8684798b79bafea522c2df"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vivacom/Commercial/BG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vivacom/Commercial/BG/mcfg_sw.mbn",
+      "bytes": 60376,
+      "sha256": "861da99e7acd675b1aa94c7a295f85178347b4e9a39a9ef0d1c4b100ecb014aa"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/AL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/AL/mcfg_sw.mbn",
+      "bytes": 53816,
+      "sha256": "1c11a8f4c9795cfd3ca44198caaae6647b8f7bdd6700dafcc30abadb193b8376"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/Hungary/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/Hungary/mcfg_sw.mbn",
+      "bytes": 60464,
+      "sha256": "74823acf8927f54f760c59fe2dccb434f2ac18f6e74e2661b5951c7c122e5a08"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/Ireland/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/Ireland/mcfg_sw.mbn",
+      "bytes": 68580,
+      "sha256": "f8773b973b6c09b1b855a6d39b82f2c8dafc7a20196e370f84682a39a2b9ceb9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/MT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/MT/mcfg_sw.mbn",
+      "bytes": 54252,
+      "sha256": "516f6f532a42044cf57c08f38e2187574c61c036f40116d881a3ceae0f832d63"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/Ukraine/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Commercial/Ukraine/mcfg_sw.mbn",
+      "bytes": 57324,
+      "sha256": "e0adfc7c4ab06eea9856f49b36678f02bdcbbe83323465833811fd311fd1d124"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Dataonly/MPN/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Dataonly/MPN/mcfg_sw.mbn",
+      "bytes": 54016,
+      "sha256": "3fa07185645a6d1f58a89b70b12b53d47d50601c2a41b9e0e510416fa6d90ec6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Lab/CTC/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Lab/CTC/mcfg_sw.mbn",
+      "bytes": 60036,
+      "sha256": "6387962d1b7ddd3b8994122976b6c5a50c68c9296cd6766d228fc064a6fe26ae"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/M2M/Commercial/Global/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/M2M/Commercial/Global/mcfg_sw.mbn",
+      "bytes": 49996,
+      "sha256": "ad0b5da2999606b13295ce904ade98dd1dff3135581dca1fc505687737b3a4fb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Non_VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/Non_VoLTE/mcfg_sw.mbn",
+      "bytes": 32396,
+      "sha256": "a34f42de21522abfc7ab9432e6bae0c1c935bb633a921169ca37def326b1e898"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/CZ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/CZ/mcfg_sw.mbn",
+      "bytes": 72128,
+      "sha256": "0fe550c8354ffabd864968b909932e004045439774649b15211a03a0bbb596bb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Germany/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Germany/mcfg_sw.mbn",
+      "bytes": 64744,
+      "sha256": "b8eee4f5c1ef5b2e162318660317644e558bf0e05592a42b640caef1e14bdfc5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Greece/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Greece/mcfg_sw.mbn",
+      "bytes": 52024,
+      "sha256": "00ca7a1c9368fe463aa919d0cfa162fd793b031ff5226ad324a13a0d9bb2bbcf"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Italy/mcfg_sw.mbn",
+      "bytes": 49576,
+      "sha256": "62f0e2dab8b149ec01f09a66d26fc9b5382e31a4ccd840a550a4ae516fbeafec"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Netherlands/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Netherlands/mcfg_sw.mbn",
+      "bytes": 64424,
+      "sha256": "7cc5e93dd9fe77a1b973484b05c651debc754531378d1c18184ad1eb4c23efb9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Portugal/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Portugal/mcfg_sw.mbn",
+      "bytes": 49880,
+      "sha256": "8225eb5b8cdd0165c0c589e86eb9b409bde1443731e49b819f0049f029b5ae97"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Romania/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Romania/mcfg_sw.mbn",
+      "bytes": 60240,
+      "sha256": "0b5bc7f5adc9511ceaa32280e348d3f0fabb3a51bb7ccc4ee3dfc289675a0111"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/SAfrica/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/SAfrica/mcfg_sw.mbn",
+      "bytes": 52612,
+      "sha256": "eb3bcb0feeb625eb0cb5af009b2176f5d402aa44f15f4d9afe14c8514f9e6a6b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Spain/VEE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Spain/VEE/mcfg_sw.mbn",
+      "bytes": 74956,
+      "sha256": "5a7e8e2ba1200b47db19d5ef4ff42d8044e92039621e5afbe80b51044548c4b6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Spain/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Spain/mcfg_sw.mbn",
+      "bytes": 75404,
+      "sha256": "664f2e21574f8f2f8fda85ba4f4d9d1fa8a2e59c7610555ad6cb1bd6fd17cfc9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Turkey/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/Turkey/mcfg_sw.mbn",
+      "bytes": 60620,
+      "sha256": "458b4c0fb01c526ed1584d3564261de1f77a5485c89586e36910d5d1e3d9cb8d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/UK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Vodafone/VoLTE/UK/mcfg_sw.mbn",
+      "bytes": 68540,
+      "sha256": "e95dc21c6f5921c40126178bdef8062f64f43650dffacc9b4db96fe24313dcd4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Welcome/Commercial/Italy/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Welcome/Commercial/Italy/mcfg_sw.mbn",
+      "bytes": 55044,
+      "sha256": "c9134e355328f1c5147321dc73879af1304f9486353ebec82c59ff929d13fc84"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Wind/Commercial/Greece/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Wind/Commercial/Greece/mcfg_sw.mbn",
+      "bytes": 60700,
+      "sha256": "60a6597611b2f0f9f4c2c64f1195e502599e173903660c76a6ef11e664fb25d7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Yoigo/Commercial/ES/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/EU/Yoigo/Commercial/ES/mcfg_sw.mbn",
+      "bytes": 56660,
+      "sha256": "59ad2ebd092d1b2c7c4ba0ac5792b678b9d97201afd03e56e5a19e22f5f96650"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Korea/KT/Commercial_KT_LTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Korea/KT/Commercial_KT_LTE/mcfg_sw.mbn",
+      "bytes": 50944,
+      "sha256": "e9f4997160c48acd45ff325e3cfcdd8b1c6af928568ef934e07f99e092337d2e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Korea/LGU/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Korea/LGU/Commercial/mcfg_sw.mbn",
+      "bytes": 51792,
+      "sha256": "983fe494132b7fe353f4e217c0c20aebb0a5ebf7921ec9abf170917677b36128"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Korea/SKT/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Korea/SKT/Commercial/mcfg_sw.mbn",
+      "bytes": 51008,
+      "sha256": "bb1d13d4477463cf6f7d4813cac5ac18c8de419be2d2b7918f09fb8fba0e9b7f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/AMX/Commercial/MX/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/AMX/Commercial/MX/mcfg_sw.mbn",
+      "bytes": 63680,
+      "sha256": "4c893cd67fc0249ac8a5165046258de48facbdd1d636362d4294e8443645cb21"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/AMX/Non_VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/AMX/Non_VoLTE/mcfg_sw.mbn",
+      "bytes": 10092,
+      "sha256": "086bf29ea0a4ff5a6a534a25618c2cf0ed3ae5dd31ea921287ca51f6ff277e0d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/ATT/Commercial/Mexico/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/ATT/Commercial/Mexico/mcfg_sw.mbn",
+      "bytes": 99936,
+      "sha256": "9cf2784d69843e8a221a379a4dfadf35ab4bf7ec837fcb3405c5048375c26d6a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Algar/Commercial/BR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Algar/Commercial/BR/mcfg_sw.mbn",
+      "bytes": 55320,
+      "sha256": "cb49d3fcc4fd678ac312a2949dfceeefbbf5f20848ff16cdc94e630a10c1532e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Altan/Commercial/Mexico/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Altan/Commercial/Mexico/mcfg_sw.mbn",
+      "bytes": 55016,
+      "sha256": "6ebd77ca3ea932de555dcc19a6be93493393cf499fec206508d65b3da63f7de1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Altice/Commercial/DO/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Altice/Commercial/DO/mcfg_sw.mbn",
+      "bytes": 49252,
+      "sha256": "d079af5d0d0a568a906308cce51e2f8c6627db2d75678c6e775fc176bea70fdc"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Antel/Commercial/UY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Antel/Commercial/UY/mcfg_sw.mbn",
+      "bytes": 59300,
+      "sha256": "b156b34b8e78055509be41b4a62215dd7717b21a6222c500c2e2273ecadb471c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/CNT/Commercial/EC/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/CNT/Commercial/EC/mcfg_sw.mbn",
+      "bytes": 57152,
+      "sha256": "50deadb70a00aaf5febcbb306dcd71cc0fd55537f2dde3f8aea0cb92da4f2e2f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Cable/Commercial/PA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Cable/Commercial/PA/mcfg_sw.mbn",
+      "bytes": 55076,
+      "sha256": "9eeedbef1baf11dfdf52814d7316127240d1c33e190d109eba149f4d3c54bfb7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Argentina/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Argentina/mcfg_sw.mbn",
+      "bytes": 56008,
+      "sha256": "2a6e3cc1b63eeaaa72b216b887d127b1a0d6b7b8b5edfd3ae1e850f04e2ca832"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/BR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/BR/mcfg_sw.mbn",
+      "bytes": 55568,
+      "sha256": "b886d4e19dcb9e4846cfed549111ad3b7d24347b67b5d52ea20de3b56db56c22"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/CR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/CR/mcfg_sw.mbn",
+      "bytes": 55108,
+      "sha256": "55568d0e566dcda7057603a6accf65c904cebb033573ecc9474fe195bb42e0a3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Chile/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Chile/mcfg_sw.mbn",
+      "bytes": 57824,
+      "sha256": "9efebd56578ff5a74a6dff39ba6fd2f346aa4e07a20ccdbf281adfc45709d928"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Colombia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Colombia/mcfg_sw.mbn",
+      "bytes": 74648,
+      "sha256": "292aa01cf9cfb777f43c62aade4890e5d7730c2d1196d336c55ad52c43e43344"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/DM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/DM/mcfg_sw.mbn",
+      "bytes": 55328,
+      "sha256": "e8e25e91069da25ee8a40e419f1446f7062be3d6ff5bb85cad0235d189f67b5b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/EC/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/EC/mcfg_sw.mbn",
+      "bytes": 54972,
+      "sha256": "6c15b7125231e92eecc8e1144fd06a597ae7e1d59b17c9778bba51fc7bdfaae4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/GT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/GT/mcfg_sw.mbn",
+      "bytes": 53396,
+      "sha256": "97862d6130873166c647396faef37136f03ac212f2e9a5b7da539689410c4f51"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/HN/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/HN/mcfg_sw.mbn",
+      "bytes": 55988,
+      "sha256": "8d1fb6c6eded5b4c58bce16bddf48db8c7a34c4ad317e3e5549018ff3cd49ae4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/NI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/NI/mcfg_sw.mbn",
+      "bytes": 52944,
+      "sha256": "0995e8b1388b4f2a392b9fd15921254b8ab0776b5504d777ff196bab0e5e960b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/PA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/PA/mcfg_sw.mbn",
+      "bytes": 56700,
+      "sha256": "b8f48269961eb460bafdc5969dff9b9b11d80111f03f699706e4b8b294523cf2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/PR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/PR/mcfg_sw.mbn",
+      "bytes": 56464,
+      "sha256": "5a0e8a53bc8b2b4100ee6de80d741893d28835d1f2eece7793682c864f6a0505"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/PY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/PY/mcfg_sw.mbn",
+      "bytes": 54932,
+      "sha256": "d4f5fdabda00b76215567dbf252d6edbaf54f8679f0d8b462d779c82245c6953"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Peru/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/Peru/mcfg_sw.mbn",
+      "bytes": 58312,
+      "sha256": "782ad74ce3e94b04edf834d19ca24cf3a8f007d33d7aa722181f57d9cf4d0e43"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/SV/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/SV/mcfg_sw.mbn",
+      "bytes": 56652,
+      "sha256": "06b88d8cd72d41d19e9200648078f66c382bf3d754d6144738e14981f6f5578b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/UY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Claro/Commercial/UY/mcfg_sw.mbn",
+      "bytes": 55140,
+      "sha256": "beeebb5235192fb31d03fca3bc0baa7a1481b17b4d3f0c357654ef5b6a9389ed"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Digicel/Commercial/PA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Digicel/Commercial/PA/mcfg_sw.mbn",
+      "bytes": 54544,
+      "sha256": "dcab8f4a98c9c4fd4187da3bd264fe42b8100db10ba6ab96981c37952415cc02"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/ENetworks/Commercial/Guyana/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/ENetworks/Commercial/Guyana/mcfg_sw.mbn",
+      "bytes": 59600,
+      "sha256": "652659e613fbe4b7357178329897361b3675d74a9b2db4b219025d2aa9fc45d4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Entel/Commercial/BO/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Entel/Commercial/BO/mcfg_sw.mbn",
+      "bytes": 54624,
+      "sha256": "746994013ee1df1419d6d578d6709642d718e5d95f8edab600bd915d1b8ce2f3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Entel/Commercial/CL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Entel/Commercial/CL/mcfg_sw.mbn",
+      "bytes": 55196,
+      "sha256": "19c7168af0a0bce73d8e6b15bab3455ca8147d4025466fbac89e80044ce61a2a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Entel/Commercial/PE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Entel/Commercial/PE/mcfg_sw.mbn",
+      "bytes": 54088,
+      "sha256": "9c0dd04046db3920fd68eb23f32cf628e465fb69b1b7e1619deb435427f73ede"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/ICE/Commercial/CR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/ICE/Commercial/CR/mcfg_sw.mbn",
+      "bytes": 54328,
+      "sha256": "c749307cd60373db7ff1bdc346183a6636eac00dc0368e68a2559648632a71e2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/CR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/CR/mcfg_sw.mbn",
+      "bytes": 54436,
+      "sha256": "b8c68d8d75c1e00e4626dd40a7434a5b7f91c9bc22cd61848816062faf4b4d6f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/NI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/NI/mcfg_sw.mbn",
+      "bytes": 54440,
+      "sha256": "0eafad5088054ac9e157c36be0df37ced84892f3cf082f2853c53a7c5b417c3a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/PA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/PA/mcfg_sw.mbn",
+      "bytes": 55524,
+      "sha256": "7cce3e1ae18db4fde4f65f3a9fda309ab65acfa0ff9b465892af1913bfbf2ac8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/SV/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/SV/mcfg_sw.mbn",
+      "bytes": 54332,
+      "sha256": "6ceb2bb085622374bb8d7874bdfc733cc1ed0fa5ffbeff8095820f04da02ac8f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/VE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/MOVISTAR/Commercial/VE/mcfg_sw.mbn",
+      "bytes": 54436,
+      "sha256": "3c160e6c3db0302431b392536e3fe4cf97f222d5e94d349d55aa3b1cd3698b9c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Nextel/Commercial/BR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Nextel/Commercial/BR/mcfg_sw.mbn",
+      "bytes": 54208,
+      "sha256": "43dc717b391d0de4663cda87132240c290c2effa031edb92b057b6a614ecbe23"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/OI/Commercial/BR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/OI/Commercial/BR/mcfg_sw.mbn",
+      "bytes": 54224,
+      "sha256": "defb3531bbae3e13d8a5a32402a3393bf21f106c957d2194c50670845cf01fc9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Personal/Commercial/AR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Personal/Commercial/AR/mcfg_sw.mbn",
+      "bytes": 56956,
+      "sha256": "77296cc56184d560e6980387a1eee2f12da5a378b45eada3a0555426d27901f7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Personal/Commercial/PY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Personal/Commercial/PY/mcfg_sw.mbn",
+      "bytes": 54376,
+      "sha256": "7b537494e70e79239cd3c8e549fa323912e6b30ae7200f8fb8edf5dcb2a42d2e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/PortoConecta/Commercial/BR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/PortoConecta/Commercial/BR/mcfg_sw.mbn",
+      "bytes": 54216,
+      "sha256": "43be5874d98fdc6b920223e3495383d3ac183cf57bdfc244018eb0e49037ba7e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/TIM/Commercial/Brazil/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/TIM/Commercial/Brazil/mcfg_sw.mbn",
+      "bytes": 57740,
+      "sha256": "6077301d727c13a3ad5caa555e5bfc00bf479691335646afea6c5b34c823a4a2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/AR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/AR/mcfg_sw.mbn",
+      "bytes": 52628,
+      "sha256": "8bb5d81a8f1526e0550ee6ecdf918841166b99cf62c8ec4f1aa589b01d60b58b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/CL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/CL/mcfg_sw.mbn",
+      "bytes": 55164,
+      "sha256": "0ee24772671f981dea3497004f002c4892cfd11cc6c6f84cf34659047005ab3a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/Colombia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/Colombia/mcfg_sw.mbn",
+      "bytes": 60672,
+      "sha256": "99437058bb9533876d5da0b7672524b7f57545ff481aefe1916226291f0c5cb9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/EC/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/EC/mcfg_sw.mbn",
+      "bytes": 49516,
+      "sha256": "b6a26d58aeca9a1811ffcc040bac3a721e233c7a500e4685c05faf4573f1a721"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/MX/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/MX/mcfg_sw.mbn",
+      "bytes": 53064,
+      "sha256": "48e6b8b5ac9c58245d2ac018dc0f19a42a4e92b2325ca3cacd1b547175f607f3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/Peru/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/Peru/mcfg_sw.mbn",
+      "bytes": 62052,
+      "sha256": "92e055b1b3998687e416483314614c234ba8d2256c27f84c69f6ebbe8dd8bb7e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/UY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Telefonica/Commercial/UY/mcfg_sw.mbn",
+      "bytes": 52364,
+      "sha256": "fbaa628041ff66a2316cdde4b53f6af85e4e84aebd819eebe8c5f5d278cb1a94"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/Colombia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/Colombia/mcfg_sw.mbn",
+      "bytes": 58488,
+      "sha256": "007ca52b4f3fd35ff235865e18039ee117c0da8353af4c0cfd4f0c8cdfdbf0fe"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/GT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/GT/mcfg_sw.mbn",
+      "bytes": 57700,
+      "sha256": "dd67a046c1faff5731fa2bac0f8a3ca5a4d9ba59dcd6ad53d0a54570075fc139"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/HN/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/HN/mcfg_sw.mbn",
+      "bytes": 54216,
+      "sha256": "2226daca5b3fb7090372762e5b9b8cf5889ec36a25c2f5aa3452c89cfa14d60d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/PY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/PY/mcfg_sw.mbn",
+      "bytes": 54212,
+      "sha256": "0c21998f9586f22de45933ec7640c75d26a8ffd8847fcbaf349283c220b81d0c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/SV/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Tigo/Commercial/SV/mcfg_sw.mbn",
+      "bytes": 54216,
+      "sha256": "d8a7cc8bab1f726cd4955f2b76c8a1c2d24d13922bc41ab0c268c986d066a945"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Vivo/Commercial/BR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/Vivo/Commercial/BR/mcfg_sw.mbn",
+      "bytes": 54580,
+      "sha256": "67a418fcd6f3a22bc89549a4a587d27ff6ea3a98c64dc51c4847d43a190ffe3e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/WOM/Commercial/CL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/WOM/Commercial/CL/mcfg_sw.mbn",
+      "bytes": 53916,
+      "sha256": "0ddd57af7100b8399f594422bba8c7a153b4fe36046d4553c403af91a57dd54c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/WOM/Commercial/Colombia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/LATAM/WOM/Commercial/Colombia/mcfg_sw.mbn",
+      "bytes": 54392,
+      "sha256": "fd6fb5f941269bcccdfe3790db76d8633371a5d262d42e3131a3324b3ad84fb6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Alfa/Commercial/LB/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Alfa/Commercial/LB/mcfg_sw.mbn",
+      "bytes": 57488,
+      "sha256": "e47bf82c7f75d2811ce77035c02e8f8657d7ade280b2ac612637e6a8286db8d1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Asiacell/Commercial/IQ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Asiacell/Commercial/IQ/mcfg_sw.mbn",
+      "bytes": 61180,
+      "sha256": "88bad79ee150924f15901d77fb6571ebac0ea120d4483a9ed12a626860f6f34b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Azercell/Commercial/Azerbaijan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Azercell/Commercial/Azerbaijan/mcfg_sw.mbn",
+      "bytes": 58192,
+      "sha256": "a3207343312d341af21f081fd05b3cce6c2578a4e4e1da35153ad00773d6a542"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Bakcell/Commercial/Azerbaijan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Bakcell/Commercial/Azerbaijan/mcfg_sw.mbn",
+      "bytes": 57612,
+      "sha256": "f4d4d8e7a4df32c49d661acb3f9820f3e471e970f4e966ed0ff6f3de11ab9247"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Batelco/Commercial/Bahrain/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Batelco/Commercial/Bahrain/mcfg_sw.mbn",
+      "bytes": 53244,
+      "sha256": "819e290c267af84308da0b96c728894a341adc5666306e4d69c150ed0e91b9db"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Beeline/Commercial/Uzbekistan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Beeline/Commercial/Uzbekistan/mcfg_sw.mbn",
+      "bytes": 55064,
+      "sha256": "4574f94a98158bc60cc90696816012c8346f418e64ef03b464af82a0e23f988c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Cellcom/Commercial/IS/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Cellcom/Commercial/IS/mcfg_sw.mbn",
+      "bytes": 60272,
+      "sha256": "85ef39e0853116cca80ab348c1b216bd9e5a78d02956711c875a2ed9153806c0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Du/Commercial/AE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Du/Commercial/AE/mcfg_sw.mbn",
+      "bytes": 51800,
+      "sha256": "2a8b401589528923a63fe20996afdd63382482772526c4c59258422724660c03"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Etisalat/Commercial/AE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Etisalat/Commercial/AE/mcfg_sw.mbn",
+      "bytes": 54956,
+      "sha256": "1e86ac4da16ab4e076f05077f907da08bba22c73b09bd85901a65e82c318c7a6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Fastlink/Commercial/Iraq/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Fastlink/Commercial/Iraq/mcfg_sw.mbn",
+      "bytes": 55612,
+      "sha256": "d2f9c3766b61b45a9f68e2e1845883bb4ecf564b0822737f8c423aa43462cf5a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/HIWEB/Commercial/IR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/HIWEB/Commercial/IR/mcfg_sw.mbn",
+      "bytes": 54856,
+      "sha256": "62ddcb4bfea4e3d3c6aad0ea0d227bb9eb55df20131227cfe87f9ed3442f54af"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Hot-mobile/Commercial/IL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Hot-mobile/Commercial/IL/mcfg_sw.mbn",
+      "bytes": 57652,
+      "sha256": "25300a1e4cd3ded6c5eea77a7fda35ca93c667da0c8210e1cfd7a0c425a89e54"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Inwi/Commercial/Morocco/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Inwi/Commercial/Morocco/mcfg_sw.mbn",
+      "bytes": 86440,
+      "sha256": "0bbbddb91ce46e15ab61ca0de8bcc1159e4141b6416c41d0d54ee2c316088e40"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Jazz/Commercial/Pakistan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Jazz/Commercial/Pakistan/mcfg_sw.mbn",
+      "bytes": 57508,
+      "sha256": "c160a1f133bd29d50da455219b760c751145779c81d58cb26ab36122e280318e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/MCI/Commercial/IR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/MCI/Commercial/IR/mcfg_sw.mbn",
+      "bytes": 58508,
+      "sha256": "766a6308846e42cc436e2d59dfc6e9642b7de44652e330a18e0c67c7e52b601d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/MTN/Commercial/IR/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/MTN/Commercial/IR/mcfg_sw.mbn",
+      "bytes": 55536,
+      "sha256": "79e7886fc023ab0c38ebc37966fbe36a409ef5086f4ca9142a08e89119fe4ce9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Mobily/Commercial/SA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Mobily/Commercial/SA/mcfg_sw.mbn",
+      "bytes": 55328,
+      "sha256": "fd8c4755a8c74451aacccd70440cd2f413ccc2deaecb272fa99773e441683092"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Omantel/Commercial/OM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Omantel/Commercial/OM/mcfg_sw.mbn",
+      "bytes": 55396,
+      "sha256": "9a0bf1891f0a449eab60af7463b363c2c62e904adc4568be8e420e60310a2fb0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/KW/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/KW/mcfg_sw.mbn",
+      "bytes": 56176,
+      "sha256": "b37ad0dee042d6f95cc8322690d36c632de7b43a29ab4a67f404085316535e57"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/MV/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/MV/mcfg_sw.mbn",
+      "bytes": 57560,
+      "sha256": "236965238bd6dc6d31f33d2d0ab2f24c44c36218e7d31f74eba07e6ee9ac0cd2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/OM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/OM/mcfg_sw.mbn",
+      "bytes": 53096,
+      "sha256": "2cd8515a08f0c29b5e3a556981d769a0b47085a1ea142ce7dad66e72e2cc2da4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/QA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ooredoo/Commercial/QA/mcfg_sw.mbn",
+      "bytes": 54264,
+      "sha256": "60a60e58d500a82d4e1c0c6f555005511e0950b9080d46abd1027e8ca55a51e8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Partner/Commercial/IL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Partner/Commercial/IL/mcfg_sw.mbn",
+      "bytes": 55544,
+      "sha256": "5a7ed7a88cea8e472daca8dd625cebf36c4539ae37f47d5fd13f1b384449bac0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Pelephone/Commercial/IL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Pelephone/Commercial/IL/mcfg_sw.mbn",
+      "bytes": 50076,
+      "sha256": "8c705cec89c40765839b34a71113df4d1a38a56e11936e220ac6b237bfd16a57"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Redbull/Commercial/SA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Redbull/Commercial/SA/mcfg_sw.mbn",
+      "bytes": 54104,
+      "sha256": "5aa2c3ff6eefe466897e67322d229f6e54d73f97e7cf47c853e56d87db38454c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/STC/Commercial/BH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/STC/Commercial/BH/mcfg_sw.mbn",
+      "bytes": 54292,
+      "sha256": "55cce92b8b0d4fecc04150184e972af526f05f146eef2b435527953a650bbcf9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/STC/Commercial/KUW/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/STC/Commercial/KUW/mcfg_sw.mbn",
+      "bytes": 54100,
+      "sha256": "f45cdfef8687993676e40de8eac442a1ce28975fca51664066e4ad36d5057a7f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/STC/Commercial/SA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/STC/Commercial/SA/mcfg_sw.mbn",
+      "bytes": 62852,
+      "sha256": "7a11ad35bc7125e5db963d6f967ace1408b9257c889272e11e24f35bfb720227"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Salam/Commercial/SA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Salam/Commercial/SA/mcfg_sw.mbn",
+      "bytes": 52840,
+      "sha256": "0dc550d4bfad60cd6db33ad3fec7baf02746598f66d3da676e55577551dcbaba"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Telenor/Commercial/Pakistan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Telenor/Commercial/Pakistan/mcfg_sw.mbn",
+      "bytes": 56024,
+      "sha256": "c3484fa5fc48cd2cad2be54c020c8ffa22140ba8e56b976f39ee5dabcd501dfd"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ucell/Commercial/UZB/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ucell/Commercial/UZB/mcfg_sw.mbn",
+      "bytes": 55668,
+      "sha256": "985a770466e8d2b0aab18d12c995a0f09e20bd3563ce0618c908310d9c50c44c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ufone/Commercial/Pakistan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Ufone/Commercial/Pakistan/mcfg_sw.mbn",
+      "bytes": 56940,
+      "sha256": "5669fd8a604153138e0a7166bd2032ca63dc6570ecb0d82f02149a2d6747ab65"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Uminah/Commercial/Jordan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Uminah/Commercial/Jordan/mcfg_sw.mbn",
+      "bytes": 60956,
+      "sha256": "ff13ce5d0c45c41f6e6f0e5b217f5a3baf1d5d403912939d83ec81622f9ee8a6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/We4G/Commercial/IL/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/We4G/Commercial/IL/mcfg_sw.mbn",
+      "bytes": 56464,
+      "sha256": "5069a581d2d2b951d5162aa7bd40919aa2244017dcdc20ae4f7c7460f249e4f8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/YMPC/Commercial/YE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/YMPC/Commercial/YE/mcfg_sw.mbn",
+      "bytes": 54188,
+      "sha256": "dc411ae469d590b9c0a7434ecfa7dca0c9a97d6c65ba2862455dc0df775c1382"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/BA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/BA/mcfg_sw.mbn",
+      "bytes": 65308,
+      "sha256": "153cb2b377627b680bc8a697f967dc1c1c2e98fd7958511ca4dc4d2f744ebd99"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/JO/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/JO/mcfg_sw.mbn",
+      "bytes": 54344,
+      "sha256": "bdc9f7da8efaff39b45679dab8a90d3fecb53c405bd9d35aa48ccc0401d528ea"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/Kuwait/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/Kuwait/mcfg_sw.mbn",
+      "bytes": 56808,
+      "sha256": "39e77752b7db4f6818284741e56cb19533bb35a5475dd25771ec007d295452ec"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/SA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zain/Commercial/SA/mcfg_sw.mbn",
+      "bytes": 54872,
+      "sha256": "a73663309cea6ed5a557ffca079cb2c59b289e11cb200217d7fd76f854e1493e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zong/Commercial/Pakistan/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/MEA/Zong/Commercial/Pakistan/mcfg_sw.mbn",
+      "bytes": 55836,
+      "sha256": "5b13fd5e5919b13c05167f28c10fa017a7961da1f3dfaf4a2056fde0000c9724"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/FirstNet/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/FirstNet/mcfg_sw.mbn",
+      "bytes": 59708,
+      "sha256": "e5ebd7dd93ff10167af95c18029c328ffa1f581c55bc469726b682cfcb5ef215"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/FirstNet_American_Samoa/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/FirstNet_American_Samoa/mcfg_sw.mbn",
+      "bytes": 61344,
+      "sha256": "0eed303a95d7c1e5dc3feaa06361226c75b980d068f1703860083e7e86aab4ec"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/FirstNet_Guam_CNMI/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/FirstNet_Guam_CNMI/mcfg_sw.mbn",
+      "bytes": 61316,
+      "sha256": "cf028724441d785b58a9357a829b22d446be812773f52ceee30c3103e76e3115"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/Non_VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/Non_VoLTE/mcfg_sw.mbn",
+      "bytes": 26924,
+      "sha256": "7ac0bd62ede39d331a5d22658d62a1f8f7a8f2b4a20eff65312f9eb4d4ef55a5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/ATT/VoLTE/mcfg_sw.mbn",
+      "bytes": 97284,
+      "sha256": "ceff1643801052be9cda8e215f2035259693f57cbfdb976b0f2a6808bde21e58"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Bell/Commercial/CA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Bell/Commercial/CA/mcfg_sw.mbn",
+      "bytes": 66360,
+      "sha256": "a57c3c0eb5f850c82e564b9263dbf6817a1a6de6b74f99948fd662ea381fe069"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/CBRS/Commercial/US/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/CBRS/Commercial/US/mcfg_sw.mbn",
+      "bytes": 26460,
+      "sha256": "a7a0674d975541b24091975605aec4ac38125602e955a8aa55ea0c3510ed925d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Dish/Commercial/US/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Dish/Commercial/US/mcfg_sw.mbn",
+      "bytes": 59924,
+      "sha256": "ba6868192084ca4a41a1dcd53d834d15eaa62bb0d7bf841d4dc8c679dc0d834b"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/GCI/Commercial/US/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/GCI/Commercial/US/mcfg_sw.mbn",
+      "bytes": 58084,
+      "sha256": "fa85bf471c582fa387f0d53e330dcea6ad6c3c2615feb37db943ac0d24310712"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Rogers/Commercial/CA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Rogers/Commercial/CA/mcfg_sw.mbn",
+      "bytes": 64388,
+      "sha256": "529679211485c667308b43fbc463fecd5c1616b75d736da3bb0eb309f45a9b58"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/Commercial/mcfg_sw.mbn",
+      "bytes": 79856,
+      "sha256": "a29811124002471fc6e8313a047973178352eb293be9fb04fb024847847746d3"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/VoWiFi/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/VoWiFi/mcfg_sw.mbn",
+      "bytes": 68652,
+      "sha256": "b8c3211658db739f760930a2c0b0e154a7392ce489d964eaf890f1ee57e13a3c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/VoWiFi_A/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/VoWiFi_A/mcfg_sw.mbn",
+      "bytes": 68664,
+      "sha256": "ab9fa8c032ab5664360cca1aa4a96ca35cc1d7c566b47d023dce77404d692988"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/VoWiFi_B/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Sprint/VoWiFi_B/mcfg_sw.mbn",
+      "bytes": 68664,
+      "sha256": "317cf4d648a95beb0aea033d3d6f960156544e86bca1f634e587d41274b5b33f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/TMO/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/TMO/Commercial/mcfg_sw.mbn",
+      "bytes": 88720,
+      "sha256": "b7e335e34d256f9c9eb9369d0b7f0ddeb66257206807fcd9805221dab8874606"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Telus/Commercial/CA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Telus/Commercial/CA/mcfg_sw.mbn",
+      "bytes": 65408,
+      "sha256": "060a5d3ac8f3d25eee5a1463631a459ff1566f2196d894d5c0bfeae0fb755d18"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/USCC/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/USCC/Commercial/mcfg_sw.mbn",
+      "bytes": 57600,
+      "sha256": "77928d558da8fa9efa338990eda62e8d6e0cdf715c43673f57f506bdb4170743"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Verizon/CDMAless/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Verizon/CDMAless/mcfg_sw.mbn",
+      "bytes": 98044,
+      "sha256": "ed7c91f2468a3d5baace157146b8e02fb8a921651451695d27c504dba20fc018"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Verizon/IMSless/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Verizon/IMSless/mcfg_sw.mbn",
+      "bytes": 40080,
+      "sha256": "269c75c84e566c320621200322296f78fbd897383be7c4dafaa1bbe3b8672406"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Verizon/hVoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/NA/Verizon/hVoLTE/mcfg_sw.mbn",
+      "bytes": 84676,
+      "sha256": "a88a9e5935c17cab784303d116b33490e15eb50450af1177a52221163c633dbb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Beeline/Gen_3GPP/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Beeline/Gen_3GPP/mcfg_sw.mbn",
+      "bytes": 55372,
+      "sha256": "8fd61ed534036dd4ac12a24b129d54695ca0531e76328079172921ff6f8663f2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/KODOTEL/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/KODOTEL/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54324,
+      "sha256": "53be0b797acdb8d2a7e048f6c02cc40cba8e9c9c37d8a2220b89dbef774674cb"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/LETAI/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/LETAI/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54432,
+      "sha256": "21927044ba0be3f956c607d030a6fa0f05a28795223722f4fd6162cbaad72819"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/LIFE/Commercial/BY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/LIFE/Commercial/BY/mcfg_sw.mbn",
+      "bytes": 55840,
+      "sha256": "d812dade31aff8895bba7215fb25dcb568d63e0cb6f6b2b1caf0ffc55d9a16df"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/MTS/Commercial/BY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/MTS/Commercial/BY/mcfg_sw.mbn",
+      "bytes": 56012,
+      "sha256": "a021654169a7f842670e3523d58d452132f784859406c05ff45b8eca969f6e6c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/MTS/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/MTS/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 67664,
+      "sha256": "57ed8ac80037d2090f2af51f3b314591ecb118a0ea99c06d9d8e7ddf2a1992e6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/MegaFon/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/MegaFon/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 72060,
+      "sha256": "6988519b54e40a74e854ccb636d6373288e9e6acfdf043e36038e3c3f38f9f3c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Motiv/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Motiv/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 56700,
+      "sha256": "f69904705b7f291aafcb126cd4437a17002d3bebcc89b0bbeb45631594986cf7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/NTC/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/NTC/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54204,
+      "sha256": "6fad1828a1a87dd72cb950d0e9cd4d4f4f02f5155cc6ba6107aa6782db743945"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Rost/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Rost/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54228,
+      "sha256": "0e65e33e33808795e0f83ac87abc1789dff43d23330b96fc07843ee59a544d57"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/RusIndigo/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/RusIndigo/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54212,
+      "sha256": "3fced5f4589a431b98adbb3bc68672d9f612d066754a977d2ecbb4528455e65e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Russmarts/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Russmarts/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54216,
+      "sha256": "54cf383dd69a4e5f29c657fdbf8a55e789382fd0b53dbb14c5b53ed0a7e8c5c1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Sberbank-Telecom/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Sberbank-Telecom/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 56232,
+      "sha256": "c2fdc0289ab239e986bb965a167c494a9c884e73bd8c5b59ad6ca29fbf8c1f1c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/TATT/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/TATT/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54208,
+      "sha256": "bb425a2010c60a69d7e43125eb1fc34ffdc6682bb452ac4450d4431cdcc4005f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Tele2/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Tele2/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 52920,
+      "sha256": "2d147c7c111d26e4d3907b150bbd0f76b7c065d68efa7144af91858e5c3fe5e8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Tinkoff_Mobile/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Tinkoff_Mobile/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54220,
+      "sha256": "646ffd92ba6354b564137a39f54532fa2088f947279b1d06d90962a5334bf6d7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Voice/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Voice/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54244,
+      "sha256": "d8f3773217cf61dd2b49d929ee34b49ac75b7ee0509f7b8e0f4b599b743b601d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Wifire/Commercial/RU/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Russia/Wifire/Commercial/RU/mcfg_sw.mbn",
+      "bytes": 54244,
+      "sha256": "421c6830258ff228db58100c9d83eac307f347a8ed662e1cfc25793190219d85"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SA/Brazil/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SA/Brazil/Commercial/mcfg_sw.mbn",
+      "bytes": 17160,
+      "sha256": "9a16bd01c6f8ff15d745e676a1faf2521a03a6b9059eb6c8975f8228d39f4dea"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/3HK/Commercial/HK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/3HK/Commercial/HK/mcfg_sw.mbn",
+      "bytes": 66600,
+      "sha256": "c5225d1e5f0123bf690113329cf55a749dc02696724b7b4aeda1089614d5d625"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/AIS/Commercial/Thailand/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/AIS/Commercial/Thailand/mcfg_sw.mbn",
+      "bytes": 80228,
+      "sha256": "14f55c4258358bac8f6fce9d265f71ca8c24418109c664297155e0a25aae8411"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/APT/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/APT/Commercial/mcfg_sw.mbn",
+      "bytes": 59232,
+      "sha256": "3563bc7d8abeedd434db1372471507c707fcbb5dce5d44b59fc3245a45e23bc0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Axiata/Commercial/IDN/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Axiata/Commercial/IDN/mcfg_sw.mbn",
+      "bytes": 49736,
+      "sha256": "82780b676228d140ec47d8059cae6ebe5a66e455ed819af2926125c9d6296052"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/CTM/Commercial/MO/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/CTM/Commercial/MO/mcfg_sw.mbn",
+      "bytes": 53220,
+      "sha256": "0a31a25287cace5f4beff5c6e9f9b89e6e31cd4b16d15616206c246a4049d797"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/CUHK/Commercial/HK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/CUHK/Commercial/HK/mcfg_sw.mbn",
+      "bytes": 60548,
+      "sha256": "8da25463ceba5a6899e2e45b7c202b6536fd861fe13ba25d2aa1d4728d58f0c9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Celcom/Commercial/MY/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Celcom/Commercial/MY/mcfg_sw.mbn",
+      "bytes": 62028,
+      "sha256": "5cc167ac818a292527bff3cc3a62a312eec9e0dd3bf3c7fcc38e4e451becdb3c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Cellcard/Commercial/KH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Cellcard/Commercial/KH/mcfg_sw.mbn",
+      "bytes": 54256,
+      "sha256": "d73701d0a6a724dfab5ec5d32e58f51b096f80837392efbbeab6986302f7e225"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/ChunghwaTel/Commercial/TW/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/ChunghwaTel/Commercial/TW/mcfg_sw.mbn",
+      "bytes": 68036,
+      "sha256": "20792acbe14ba1706493af30534f6ab4f814560d2c39e9b4721289b3fd6ff3f4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/DIGI/Commercial/Malaysia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/DIGI/Commercial/Malaysia/mcfg_sw.mbn",
+      "bytes": 53276,
+      "sha256": "ebae35c0129a7e3bcec6c261fa74de328f08cc771e70b2acb109db52ceb05e75"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/DITO/Commercial/PH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/DITO/Commercial/PH/mcfg_sw.mbn",
+      "bytes": 61176,
+      "sha256": "6d934f097ccac1ef246995f3f6731eeda8cf399ce714499e36cb344c9650e466"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/DTAC/Commercial/VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/DTAC/Commercial/VoLTE/mcfg_sw.mbn",
+      "bytes": 58800,
+      "sha256": "c9e415df9800e6fa622f04a7eb9363d0ab852c5259f655b42dba2e50f3cb163c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/FarEastOne/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/FarEastOne/Commercial/mcfg_sw.mbn",
+      "bytes": 72292,
+      "sha256": "dd3f2a548279b474da8971728ed159668505aae0aff4c326a6263bf4aafc5ca5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Globe/Commercial/PH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Globe/Commercial/PH/mcfg_sw.mbn",
+      "bytes": 64144,
+      "sha256": "d6ec98310fa3b7e727ece42d933fb1a3e998cd7c835943dd28bab90b2d441fd8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/H3G/Commercial/MO/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/H3G/Commercial/MO/mcfg_sw.mbn",
+      "bytes": 54672,
+      "sha256": "caa70a47a19934f0ca03c4eef9f8cb2c99ce78424f19bb50c05e7b42b61427c6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/HKT/Commercial/HK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/HKT/Commercial/HK/mcfg_sw.mbn",
+      "bytes": 66084,
+      "sha256": "88c31246def2728e8d74f76d93ada74032ff3bda7b4646829c3baf040abaf742"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Indosat/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Indosat/Commercial/mcfg_sw.mbn",
+      "bytes": 91528,
+      "sha256": "1f6c60b691054acbc865ea36ac9fff58565286bc20d707bdc214a64b7e90a9da"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/LTC/Commercial/LA/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/LTC/Commercial/LA/mcfg_sw.mbn",
+      "bytes": 55432,
+      "sha256": "5ab7c19fcfb3ffb78c943c63f8206bccb0a51756e4c11fee1ab295e390055b9f"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/M1/Commercial/SG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/M1/Commercial/SG/mcfg_sw.mbn",
+      "bytes": 63100,
+      "sha256": "358ca172020fe85a1e381394fbaeace3369b0465a7f149beb5aaeccd71b97e3e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/MPT/Commercial/MM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/MPT/Commercial/MM/mcfg_sw.mbn",
+      "bytes": 52480,
+      "sha256": "1011a271e88cdddd9dd96d0c4a7a17414c94f9a8199314058cc6276cc0261df0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Maxis/Commercial/Maxis/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Maxis/Commercial/Maxis/mcfg_sw.mbn",
+      "bytes": 55784,
+      "sha256": "f2613acfce4fae67ed9f6a3381447197fde23725601401df200b6facc68959a2"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Metfone/Commercial/KH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Metfone/Commercial/KH/mcfg_sw.mbn",
+      "bytes": 55932,
+      "sha256": "83fcbd1f68ca6de2e1f9852652356690ede3468b4bb6985734106f2bc71b681d"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Mobifone/Commercial/Vietnam/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Mobifone/Commercial/Vietnam/mcfg_sw.mbn",
+      "bytes": 61008,
+      "sha256": "e1ff09007f22570a555beb97a3e1562d5b8264cd2a3efad96f997e940b56b7d9"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/MyTel/Commercial/MM/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/MyTel/Commercial/MM/mcfg_sw.mbn",
+      "bytes": 55044,
+      "sha256": "5d568140a5e87b8b58232d7776fda685d02a467e59c677834134e3b3f25e0a01"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/NT/Commercial/Thailand/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/NT/Commercial/Thailand/mcfg_sw.mbn",
+      "bytes": 51176,
+      "sha256": "dab42860612a6d9b7419e0a254aa2b19d4647145d6ced474ca74bad37ed5afce"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Ncell/Commercial/NP/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Ncell/Commercial/NP/mcfg_sw.mbn",
+      "bytes": 55936,
+      "sha256": "9674b5f3b10ba579b6b815aba623a83017f47f79fad9281a93193436221a027a"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/P1/Commercial/Malaysia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/P1/Commercial/Malaysia/mcfg_sw.mbn",
+      "bytes": 65880,
+      "sha256": "c1766ea19f09a691726bcc6d7438e55f8f9126c412903cfb263b4908fd3682f4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Seatel/Commercial/Cambodia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Seatel/Commercial/Cambodia/mcfg_sw.mbn",
+      "bytes": 54796,
+      "sha256": "8eaa3eca45585ac62e20b5d9680470fbf3e7a4e509b308137d45b11a47a61ced"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Singtel/Commercial/Singapore/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Singtel/Commercial/Singapore/mcfg_sw.mbn",
+      "bytes": 68872,
+      "sha256": "c52d1569aa34c4be3dbfc000de5d15fe5a5afe391071b0793cc0f50732137d38"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/SmarTone/Commercial/HK/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/SmarTone/Commercial/HK/mcfg_sw.mbn",
+      "bytes": 61656,
+      "sha256": "2a57814440c8c433c4db7d4d4b462fc8c81823469468eacbf080c00937cbb829"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smart/Commercial/Cambodia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smart/Commercial/Cambodia/mcfg_sw.mbn",
+      "bytes": 55712,
+      "sha256": "cf2c32d61e2736d4583b906e86152fb67d69e84d2a5a84d5116b008fabc5a361"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smart/Commercial/PH/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smart/Commercial/PH/mcfg_sw.mbn",
+      "bytes": 55676,
+      "sha256": "96b45b58eb35ff3f90fad17f20b78127d41382677534ee79ad90721570684319"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smartfren/Commercial/VoWiFi/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smartfren/Commercial/VoWiFi/mcfg_sw.mbn",
+      "bytes": 58228,
+      "sha256": "8825841a65db4daa5d6b2d946633f5b9670411e252faaf82e9fdebd107f805a6"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smartfren/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Smartfren/Commercial/mcfg_sw.mbn",
+      "bytes": 58200,
+      "sha256": "622afa5e8c17bb5d2e05a12ed8a21f758f763e22a727cccc37464e359d9461a1"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/StarHub/Commercial/SG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/StarHub/Commercial/SG/mcfg_sw.mbn",
+      "bytes": 63944,
+      "sha256": "1a7f1d5bc4febad301a1861502cc9b3b4815ae15a4b354fd30676f71ad7d4e6e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TM/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TM/Commercial/mcfg_sw.mbn",
+      "bytes": 70144,
+      "sha256": "807713026f0177f8bc121dc7f45acdfffcd482d5d80f13132f31cf3bd4efbe95"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TPG/Commercial/SG/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TPG/Commercial/SG/mcfg_sw.mbn",
+      "bytes": 48388,
+      "sha256": "55ec490db556b19ec00a6d84718d2153dbb0da215c4734b74d7c8279073b894c"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TRI/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TRI/Commercial/mcfg_sw.mbn",
+      "bytes": 61216,
+      "sha256": "e76150b42d382dc1b7637d3bad455f35bcef90ab76a9d11a564cbde5d05cfdc7"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TStar/Commercial/TW/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TStar/Commercial/TW/mcfg_sw.mbn",
+      "bytes": 50512,
+      "sha256": "0b7f1d0d5b51c58c03635533dc4cd3ff0eaa053c5405e4b05698b051b2c3c4f8"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TashiCell/Commercial/BT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/TashiCell/Commercial/BT/mcfg_sw.mbn",
+      "bytes": 54332,
+      "sha256": "58cf3adc52c8474c46dad23f8515ceb3b7d6efa9d8d71a9109458c528f103642"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Tele2/Commercial/KZ/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Tele2/Commercial/KZ/mcfg_sw.mbn",
+      "bytes": 57232,
+      "sha256": "a6bd1220f43c4e4310b602cadff0f122bcbe5780ba918e87d48e17cca34b85a0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Telkomsel/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Telkomsel/Commercial/mcfg_sw.mbn",
+      "bytes": 122424,
+      "sha256": "eab434d21d33ecb8c1f3688adf1bf1ba15ac012928489c43ca01c877140c5bec"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Truemove/Commercial/VoLTE/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Truemove/Commercial/VoLTE/mcfg_sw.mbn",
+      "bytes": 73900,
+      "sha256": "a5bfeacb89a2eeb0a5ec498e645247a779baaffdabcdf0da48ec64d32503edaa"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/UMobile/Commercial/Malaysia/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/UMobile/Commercial/Malaysia/mcfg_sw.mbn",
+      "bytes": 69824,
+      "sha256": "df87043e1801dfdc7a00bfb55b249246d8b1ff3930bc5bdb55bf8e3ef40a85b5"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Vietnamobile/Commercial/VN/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Vietnamobile/Commercial/VN/mcfg_sw.mbn",
+      "bytes": 56872,
+      "sha256": "e19221432114e5efcc92e5f28f532c2b6c8844755d2b36022476426b9d2cab69"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Viettel/Commercial/Vietnam/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Viettel/Commercial/Vietnam/mcfg_sw.mbn",
+      "bytes": 67876,
+      "sha256": "dcc82b7b200fc54a7df0981422d47e84a41a4211a6834e08fa6e4d4d9734881e"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Vinaphone/Commercial/Vietnam/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/Vinaphone/Commercial/Vietnam/mcfg_sw.mbn",
+      "bytes": 56872,
+      "sha256": "251d0aa322ebffa84b4ba388dfcda46c5987abb22327c26254a6f756370fc092"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/XL/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/XL/Commercial/mcfg_sw.mbn",
+      "bytes": 61588,
+      "sha256": "553478c7f334daac9b091481a1faf97806094e99c852e3a59ed83583e1b374af"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/YTL/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/YTL/Commercial/mcfg_sw.mbn",
+      "bytes": 58452,
+      "sha256": "2b9051bbdf81fc226c1fac02ffc79127f0a022fcd9ffb9bd142ca1dcf9773852"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/banglalink/Commercial/BD/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/SEA/banglalink/Commercial/BD/mcfg_sw.mbn",
+      "bytes": 57260,
+      "sha256": "f6b19a6a899041c0743420cc2e5550d384b1db45246edc005ee82d4e370d9834"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Test/ER_IOT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Test/ER_IOT/mcfg_sw.mbn",
+      "bytes": 55352,
+      "sha256": "fde066a0c67156f2602376bb7508e20bd38497137bf14f70acff83ae8eedc7c4"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/Test/NK_IOT/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/Test/NK_IOT/mcfg_sw.mbn",
+      "bytes": 55204,
+      "sha256": "db6715bcccc8daf7b9e66f5f742caf549a5ca5fdf9ba2457a1e7913b50e856ea"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/common/ROW/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/common/ROW/Commercial/mcfg_sw.mbn",
+      "bytes": 57876,
+      "sha256": "0d8c9221bd2da4b69da56ea2f7d435fae38addd48005f4f1db035a153a388a18"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/generic/common/W_One/Commercial/mcfg_sw.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/generic/common/W_One/Commercial/mcfg_sw.mbn",
+      "bytes": 40268,
+      "sha256": "4f0423e431ab21d4afb6892ecd4f516e6fc294f9b583702e83be6ffc4760c6e0"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig",
+      "bytes": 32,
+      "sha256": "a68bb880548a7467b8fc7ea7c4663f82d2eb85e9d246248e89582483c1763a85"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.txt",
+      "bytes": 22788,
+      "sha256": "5ad857f32182f82cd554fd8c682f754a064bd3333b006ddb06687d10056816ee"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/oem_sw.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/oem_sw.txt",
+      "bytes": 20091,
+      "sha256": "ddc5ddadec2e05c47eb791d34f67de2254b0899482e91088e601cc4deb6ee015"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/configs/mcfg_sw/oem_sw_null.txt",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/configs/mcfg_sw/oem_sw_null.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "android14/modem/modem_pr/mcfg/mbn_ota.md5sum",
+      "source": "MODEM-FW.bin:image/modem_pr/mcfg/mbn_ota.md5sum",
+      "bytes": 41492,
+      "sha256": "ed00df13da949e9f976044953089a9b52c0bc123e2e7a1efe5ad73e5403585f5"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/901_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/901_0_0.mbn",
+      "bytes": 290360,
+      "sha256": "ec988ddb6b2948362cce7215c0b245fb3d92e52e945f39f84f1fa9835e2ba4c2"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/910_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/910_0_0.mbn",
+      "bytes": 494088,
+      "sha256": "bfb5f56cc14d7736531d1ddcbeeb95d6ab1f13c61804a5ed42190c55a716ebed"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/911_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/911_0_0.mbn",
+      "bytes": 513528,
+      "sha256": "59aa8758efd14b00d747b4910483512ae39f0f72ea280bc51e57b2c42f3a3325"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/916_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/916_0_0.mbn",
+      "bytes": 490288,
+      "sha256": "ddd847316321b6560f31cae4eb968105e5b7e0be2d126250ca9628eb5468a310"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/917_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/917_0_0.mbn",
+      "bytes": 668376,
+      "sha256": "9153ba675e196863a99e052bf69430decf616d81591ac6b8b8716c9a4d0d69ae"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/918_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/918_0_0.mbn",
+      "bytes": 840760,
+      "sha256": "68fea77ba4d1449499d123cd95bc21f8be123e12b38794b4657730c5ac9b2121"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/919_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/919_0_0.mbn",
+      "bytes": 852360,
+      "sha256": "e738d013160885d574521fa3e0f46263f53f71d5a8279a9187b61dae6ee4f728"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/920_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/920_0_0.mbn",
+      "bytes": 450056,
+      "sha256": "f88623f88ba77c4a4358099508e478e8108d4369cdf45f1d7c5e7b4277e4f978"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/921_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/921_0_0.mbn",
+      "bytes": 480960,
+      "sha256": "5c31ec93f332ba111daa0d29d3f1e266ff39c954fdba383855097d1d2d8d5b75"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/922_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/922_0_0.mbn",
+      "bytes": 492280,
+      "sha256": "e71c66b384ec3b5724dde5e71f3b9605563265c8e194c56839e0136a08f315c6"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/923_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/923_0_0.mbn",
+      "bytes": 504960,
+      "sha256": "5b26a27e42f623215ef79efdd31046ace0b6e045f97148eb9b0d4c0c47cbccfc"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/924_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/924_0_0.mbn",
+      "bytes": 504960,
+      "sha256": "7575021070b01da4fda83a11e335d3e577a5181a0ea08bce763876ba38afe371"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/930_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/930_0_0.mbn",
+      "bytes": 463716,
+      "sha256": "67e548bb7b0e2856107ef396cda4d6962cf50ceac21991d51553ddf20c3375fb"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/931_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/931_0_0.mbn",
+      "bytes": 457652,
+      "sha256": "e547383024a51de24cdb2cf098ad26c93977330b99a6abd859299bfe39afb276"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/940_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/940_0_0.mbn",
+      "bytes": 392140,
+      "sha256": "27cc6e60dcf6b7e4d15f6ba5339b2ecfd375c02405e35f87b87982b61545c137"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/941_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/941_0_0.mbn",
+      "bytes": 407036,
+      "sha256": "4cadee7b60a48e1109f0d63c71b7fe30089141a511dfff2a2010f47780d367b3"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/942_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/942_0_0.mbn",
+      "bytes": 424556,
+      "sha256": "8960c9a4c9fcee93239098349795472ad4baee1880598bbb1d81525c64444a74"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/943_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/943_0_0.mbn",
+      "bytes": 416908,
+      "sha256": "69658bab3fbcd15829eb3a1738fef0c715a79fb726a8c7ac2edf38f46a49ef76"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/950_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/950_0_0.mbn",
+      "bytes": 478200,
+      "sha256": "d1bd75488e729e0c4bbb6182a1e8dbbd2b4d93e3f0b6790eed05ca896d6f60ac"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/951_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/951_0_0.mbn",
+      "bytes": 509056,
+      "sha256": "1c783a1114a9b79a07467c29ac707229521d2dae592f36c183a9c374381d6d27"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/952_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/952_0_0.mbn",
+      "bytes": 509056,
+      "sha256": "27cc5dc66b5eb6a0051e50323099111d9942aded011bb30582c997e87f82668f"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/960_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/960_0_0.mbn",
+      "bytes": 497408,
+      "sha256": "a49c3ab6afbd43f408076a489f3abfce26d202a2016410f159866dc675333048"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/961_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/961_0_0.mbn",
+      "bytes": 498648,
+      "sha256": "a51ebc12117bccae20473d60dbe73ad8506bc0e66cabc75352eb3a0430a3eae5"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/962_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/962_0_0.mbn",
+      "bytes": 522576,
+      "sha256": "020bb9dd58c1ebce677a79d936d36967959700fd29d584d88cd3475961580ebd"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/963_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/963_0_0.mbn",
+      "bytes": 522848,
+      "sha256": "0bb13c9c7498bf6c77545cc05285281954513d031ac476809d4f421aa5b4e6af"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/980_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/980_0_0.mbn",
+      "bytes": 475248,
+      "sha256": "4677ef2408ffc1f5ad64194ad8fbda0138c28e209d8a5fb9ea853b43d527b7b9"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/981_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/981_0_0.mbn",
+      "bytes": 494776,
+      "sha256": "c5143fc6c801e411ad51426f0aa8e7a5f7122676ef620146aca96b9b1f7e6cc5"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/982_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/982_0_0.mbn",
+      "bytes": 514248,
+      "sha256": "22d301d1bc5b837db69aad1f6ec119b40d8a2f9733cd0379c8efd728d661902e"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/983_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/983_0_0.mbn",
+      "bytes": 561144,
+      "sha256": "adce7f388d6eef6476bb0dbe26c411ceb20c9755616d8cb9095c5b4234b469c7"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/985_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/985_0_0.mbn",
+      "bytes": 796824,
+      "sha256": "2213573adacc79b2cc52947605bb65cf676873fac18f36a54bff59cf2c6d57ed"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/986_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/986_0_0.mbn",
+      "bytes": 815624,
+      "sha256": "1c5cdf7afe5acdfef560ff1a1cee3d4d09663caed0de2153c436c797d2fd1284"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/987_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/987_0_0.mbn",
+      "bytes": 831016,
+      "sha256": "b67a0fa6e9f37a3369ea0e7c1a66522d7bffe7a15b5004da8f211beb77ee5b27"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/988_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/988_0_0.mbn",
+      "bytes": 831024,
+      "sha256": "0458e03922702b27c28c487c3ca97359b605adf85013fe65a82dff0b9362f4fb"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/990_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/990_0_0.mbn",
+      "bytes": 557648,
+      "sha256": "eab3fe069bd554041829c1c4876a3b6031d4bbd29616c23f2d0a7b8a062847a9"
+    },
+    {
+      "path": "android14/modem/modem_pr/so/991_0_0.mbn",
+      "source": "MODEM-FW.bin:image/modem_pr/so/991_0_0.mbn",
+      "bytes": 596312,
+      "sha256": "79e95136581cec33f8dce37bedd8762195a9c400b444438f4f0a2f91fab062e0"
+    },
+    {
+      "path": "android14/modem/modemr.jsn",
+      "source": "MODEM-FW.bin:image/modemr.jsn",
+      "bytes": 710,
+      "sha256": "07138bd0e249fa43db4eeb1a4516037db3bfe4bb88285e8c36f594be2b2a4b43"
+    },
+    {
+      "path": "android14/modem/modemuo.jsn",
+      "source": "MODEM-FW.bin:image/modemuo.jsn",
+      "bytes": 704,
+      "sha256": "a72c7f86a7f6d57f12e24a74bd9d17d69487fef651e427c05d7e38d85c904ddc"
+    },
+    {
+      "path": "android14/modem/qdsp6m.qdb",
+      "source": "MODEM-FW.bin:image/qdsp6m.qdb",
+      "bytes": 7924,
+      "sha256": "2f6175a0a654236238dab5d9ac810a7263cf2fcae39649ac55ba9f0e3a0c3362"
     },
     {
       "path": "android14/sensors/config/ak991x_dri_0.json",

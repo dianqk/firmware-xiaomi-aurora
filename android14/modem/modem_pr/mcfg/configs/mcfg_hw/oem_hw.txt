@@ -1,0 +1,1 @@
+mcfg_hw/generic/common/Lanai/STANDALONE/LA/DSDA_Hybrid/mcfg_hw.mbn
